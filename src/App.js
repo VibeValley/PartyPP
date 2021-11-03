@@ -10,7 +10,7 @@ function App() {
 
       </div>
       <div id="Alla_spel_button" className="Button_first_page">
-
+        <p>Hejsan jag heter</p>
       </div>
     </div>
     </body>
