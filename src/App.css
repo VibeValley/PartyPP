@@ -16,17 +16,18 @@ box-shadow: inset 0px -200px 190px rgba(0, 0, 0, 0.5);
 
   width: 298px;
   height: 88px;
-  margin-left: 10vw;
+  margin-left: 10%;
+  margin-right: 10%;
   background: black;
 
 }
 
 #Pick_me_button{
-margin-top: 90vw;
+margin-top: 10vw;
 }
 
 #Alla_spel_button{
  
-  margin-top: 93vw;
+  margin-top: 5vw;
 
 }
