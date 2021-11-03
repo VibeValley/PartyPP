@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+body{
+
+
+  width: 375px;
+  height: 812px;
+
+background: #A6A2EF;
+box-shadow: inset 0px -200px 190px rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Button_first_page{
+
+  width: 298px;
+  height: 88px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: black;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#Pick_me_button{
+margin-top: 10vw;
 }
 
-.App-link {
-  color: #61dafb;
-}
+#Alla_spel_button{
+ 
+  margin-top: 5vw;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
