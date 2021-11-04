@@ -52,3 +52,21 @@ html {
     top: 100vw;
     background-color: #A6A2EF;
 }
+
+
+
+h2{
+    text-align: center; 
+}
+
+.slidecontainer{
+    width: 100%;
+}
+
+.antalspelare{
+    text-align: center;
+}
+
+.slider{
+    margin: auto center;
+}

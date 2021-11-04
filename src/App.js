@@ -54,7 +54,16 @@ console.log(games);
 
 function SlumpaSpel() {
   return (
-    <h1>Slump</h1>
+    <div>
+      
+      <h2>Slumpa Spel</h2>
+      
+      <div className="slidecontainer">
+        <p className="antalspelare">Antal Spelare</p>
+      <input type="range" min="1" max="10" value="1" className="slider" id="myRange"></input>
+      </div>
+    
+    </div>
   );
 }
 
