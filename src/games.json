@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Beer Pong",
+        "rules": "kasta bolljäveln",
+        "spelare": "2"
+    },
+
+    {
+        "name": "Fia Med Knuff",
+        "rules": "knuffa dom",
+        "spelare": "4"
+    }
+]

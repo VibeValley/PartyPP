@@ -5,6 +5,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import games from './games.json';
 
 
 const FirstPageButton = ({ ButtonText }) => {
@@ -44,9 +45,12 @@ function MainPage() {
 
 function AllaSpel() {
   return (
-    <h2>HEj</h2>
-  )
+  <h2>{games[0].name}</h2>
+
+    )
 }
+
+console.log(games);
 
 function SlumpaSpel() {
   return (
