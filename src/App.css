@@ -42,6 +42,10 @@ html {
     margin-right: 10%;
     background: #A6A2EF;
 }
+.Button_first_page:active{
+    background: #000000;
+}
+
 
 #Pick_me_button {
     position: absolute;
