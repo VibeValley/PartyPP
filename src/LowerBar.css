@@ -7,11 +7,14 @@
 }
 
 .knappar_bot{
+    position: relative;
     width: 22vw;
     height: 25vw;
     margin-left: 0%;
     margin-right: 2%;
-    background: rgb(204, 185, 185);
+    top: 0%;
+    margin-bottom: 20%;
+    background: rgb(200, 41, 41);
     padding: 0;
     border: none;
 }
@@ -21,4 +24,10 @@
     text-align: center;
     margin-top: 60%;
     color: white;
+}
+
+.FPic{
+    margin-top: 4vw;
+    height: 50px;
+    width:  40px;
 }
