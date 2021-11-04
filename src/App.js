@@ -1,4 +1,5 @@
 import './App.css';
+import AllaSpel from './AllaSpel';
 import {
   BrowserRouter as Router,
   Routes as Switch,
@@ -7,7 +8,7 @@ import {
 } from "react-router-dom";
 import games from './games.json';
 
-
+//Första sidans knapp komponent som tar in en parameter som är det som kommer stå i knappen
 const FirstPageButton = ({ ButtonText }) => {
   return (
     <div className="Button_div">
@@ -15,13 +16,18 @@ const FirstPageButton = ({ ButtonText }) => {
     </div>
   );
 }
+
+//Huvud Aappen med alla routes
 function App() {
   return (
     <div>
       <Router>
         <Switch>
           <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
-          <Route path="/AllaSpel" element={<AllaSpel />} />
+          <Route path="/AllaSpel/" element={<AllaSpel />} />
+          <Route path="/AllaSpelSida/">
+            <AllaSpelSida/>
+          </Route>
           <Route path="/" element={<MainPage />} />
         </Switch>
       </Router>
@@ -29,6 +35,7 @@ function App() {
   );
 }
 
+//Huvud Sida med två knapp komponenter
 function MainPage() {
   return (
     <div className="App">
@@ -36,18 +43,18 @@ function MainPage() {
       <Link to="/SlumpaSpel">
         <FirstPageButton ButtonText={"Slumpa Spel"} />
       </Link>
-      <Link to="/AllaSpel">
+      <Link to="/AllaSpel/">
         <FirstPageButton ButtonText={"Alla Spel"} />
       </Link>
     </div>
   );
 }
 
-function AllaSpel() {
+function AllaSpelSida() {
   return (
-  <h2>{games[0].name}</h2>
+    <h2>{games[0].name}</h2>
 
-    )
+  )
 }
 
 console.log(games);
