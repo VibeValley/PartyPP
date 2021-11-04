@@ -3,14 +3,14 @@ import {
   BrowserRouter as Router,
   Routes as Switch,
   Route,
-  Link, 
+  Link,
 } from "react-router-dom";
 
 
-const FirstPageButton = ({ButtonText}) => {
+const FirstPageButton = ({ ButtonText }) => {
   return (
     <div className="Button_div">
-      <button  className="Button_first_page" id="Pick_me_button"><p className="First_page_buttontext">{ButtonText}</p></button>
+      <button className="Button_first_page" id="Pick_me_button"><p className="First_page_buttontext">{ButtonText}</p></button>
     </div>
   );
 }
@@ -19,8 +19,9 @@ function App() {
     <div>
       <Router>
         <Switch>
-         <Route path="/AllaSpel" element={<AllaSpel/>} />
-          <Route path="/" element={<MainPage/>}/>
+          <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
+          <Route path="/AllaSpel" element={<AllaSpel />} />
+          <Route path="/" element={<MainPage />} />
         </Switch>
       </Router>
     </div>
@@ -31,18 +32,26 @@ function MainPage() {
   return (
     <div className="App">
       <h2 className="First_page_title">Party Portalen</h2>
-      <FirstPageButton ButtonText={"Slumpa Spel"}/>
-      <Link to="/AllaSpel">
-      <FirstPageButton ButtonText={"Alla Spel"}/>
+      <Link to="/SlumpaSpel">
+        <FirstPageButton ButtonText={"Slumpa Spel"} />
       </Link>
-      </div>
+      <Link to="/AllaSpel">
+        <FirstPageButton ButtonText={"Alla Spel"} />
+      </Link>
+    </div>
   );
 }
 
 function AllaSpel() {
-return(
-  <h2>HEj</h2>
-)
+  return (
+    <h2>HEj</h2>
+  )
+}
+
+function SlumpaSpel() {
+  return (
+    <h1>Slump</h1>
+  );
 }
 
 export default App;
