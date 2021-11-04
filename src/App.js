@@ -27,7 +27,7 @@ function App() {
     </div>
   );
 }
-
+//Main page
 function MainPage() {
   return (
     <div className="App">
