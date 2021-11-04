@@ -6,6 +6,9 @@ html {
 .App{
     height: 100%;
 }
+
+/*Första sidans css*/
+
 .First_page_title {
     width: 100vw;
     height: 60vw;
@@ -51,4 +54,17 @@ html {
     position: absolute;
     top: 100vw;
     background-color: #A6A2EF;
-}
+  }
+
+  /*Alla spel css*/
+
+  .HeaderDiv{
+    height: 30vw;
+    background-color: aqua;
+  }
+
+  .SidaHeader{
+    font-size: 15vw;
+    text-align: center;
+    line-height: 30vw;
+  }
