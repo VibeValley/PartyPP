@@ -5,15 +5,21 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Lowerbar from './LowerBar.js';
 
 
 const FirstPageButton = ({ ButtonText }) => {
   return (
     <div className="Button_div">
-      <button className="Button_first_page" id="Pick_me_button"><p className="First_page_buttontext">{ButtonText}</p></button>
+      <button className="Button_first_page" id="Pick_me_button">
+        <p className="First_page_buttontext">{ButtonText}</p>
+        </button>
     </div>
   );
 }
+
+
+
 function App() {
   return (
     <div>
@@ -38,6 +44,7 @@ function MainPage() {
       <Link to="/AllaSpel">
         <FirstPageButton ButtonText={"Alla Spel"} />
       </Link>
+      <Lowerbar></Lowerbar>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.Foot{
+    position: fixed;
+    background-color: rgb(200, 41, 41);
+    width: 100%;
+    height: 100%;
+    margin-top: 12vw;
+}
+
+.knappar_bot{
+    width: 22vw;
+    height: 25vw;
+    margin-left: 0%;
+    margin-right: 2%;
+    background: rgb(204, 185, 185);
+    padding: 0;
+    border: none;
+}
+
+.knappar_text{
+    
+    text-align: center;
+    margin-top: 60%;
+    color: white;
+}
