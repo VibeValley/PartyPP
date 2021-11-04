@@ -1,7 +1,16 @@
+import './App.css';
+import games from './games.json';
+
 //Alla spel sidan
 function AllaSpel() {
     return (
-        <p>Hej då</p>
+        <div className="App">
+            <div className="HeaderDiv">
+                <header className="SidaHeader">Alla Spel</header>
+            </div>
+            <div>
+            </div>
+        </div>
 
     );
 }
