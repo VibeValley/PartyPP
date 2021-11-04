@@ -1,33 +1,53 @@
-body{
-
-
-  width: 375px;
-  height: 812px;
-
-background: #A6A2EF;
-box-shadow: inset 0px -200px 190px rgba(0, 0, 0, 0.5);
+html {
+    height: 100%;
+    background: #F5EEE0;
+    box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
 }
-
 .App{
-
+    height: 100%;
+}
+.First_page_title {
+    width: 100vw;
+    height: 20vw;
+    font-size: 14vw;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #161B40;
 }
 
-.Button_first_page{
-
-  width: 298px;
-  height: 88px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background: black;
-
+.First_page_buttontext{
+    position: relative;
+    height: 25vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 9vw;
+    line-height: 25vw;
+    color: white;
 }
 
-#Pick_me_button{
-margin-top: 10vw;
+.Button_div {
+    position: relative;
+    height: 150vw;
+    margin: 0 auto;
 }
 
-#Alla_spel_button{
- 
-  margin-top: 5vw;
+.Button_first_page {
+    width: 80vw;
+    height: 25vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #A6A2EF;
+}
 
+#Pick_me_button {
+    position: absolute;
+    top: 50vw;
+    background-color: #A6A2EF;
+}
+
+#Alla_spel_button {
+    position: absolute;
+    top: 100vw;
+    background-color: #A6A2EF;
 }
