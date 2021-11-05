@@ -11,5 +11,24 @@
         "rules": "knuffa dom",
         "spelare": "4",
         "id": "02"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "rules": "knuffa dom",
+        "spelare": "4",
+        "id": "03"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "rules": "knuffa dom",
+        "spelare": "4",
+        "id": "04"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "rules": "knuffa dom",
+        "spelare": "4",
+        "id": "05"
     }
+   
 ]

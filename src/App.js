@@ -26,6 +26,7 @@ function App() {
     <div>
       <Router>
         <Switch>
+          {/*Routes till olika sidor där element är den nya js filen för sidan*/}
           <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
           <Route path="/AllaSpel/" element={<AllaSpel />} />
           <Route path="/AllaSpelSida/">
@@ -43,6 +44,8 @@ function MainPage() {
   return (
     <div className="App">
       <h2 className="First_page_title">Party Portalen</h2>
+      {/*Linken till den andra sidan ligger runt knappen
+      detta gör att man kan klicka på den*/}
       <Link to="/SlumpaSpel">
         <FirstPageButton ButtonText={"Slumpa Spel"} />
       </Link>

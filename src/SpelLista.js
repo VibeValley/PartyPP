@@ -1,9 +1,11 @@
+import "./App.css";
 const SpelLista = ({ spel }) => {
-  console.log(spel);
+  // Detta är hur den skriver ut hela listan
   return (
-    <div>
-      <p>{spel.name}</p>
-      <p>hej</p>
+    <div className="Alla_spel_listans_text">
+      <h1>{spel.name}</h1>
+      <p>{spel.rules}</p>
+      <p>{spel.spelare}</p>
     </div>
   );
 };

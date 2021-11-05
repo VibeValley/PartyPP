@@ -1,70 +1,81 @@
 html {
-    height: 230vw;
-    background: #F5EEE0;
-    box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
+  height: 230vw;
+  background: #f5eee0;
+  box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
 }
-.App{
-    height: 100%;
+
+.App {
+  height: 100%;
 }
 
 /*Första sidans css*/
 
 .First_page_title {
-    width: 100vw;
-    height: 60vw;
-    font-size: 14vw;
-    text-align: center;
-    font-family: Verdana, sans-serif;
-    color: #161B40;
+  width: 100vw;
+  height: 60vw;
+  font-size: 14vw;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #161b40;
 }
 
-.First_page_buttontext{
-    position: relative;
-    height: 25vw;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Verdana, sans-serif;
-    font-size: 9vw;
-    line-height: 25vw;
-    color: white;
+.First_page_buttontext {
+  position: relative;
+  height: 25vw;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 9vw;
+  line-height: 25vw;
+  color: white;
 }
 
 .Button_div {
-    position: relative;
-    height: 50vw;
-    margin: 0 auto;
+  position: relative;
+  height: 50vw;
+  margin: 0 auto;
 }
 
 .Button_first_page {
-    width: 80vw;
-    height: 25vw;
-    margin-left: 10%;
-    margin-right: 10%;
-    background: #A6A2EF;
+  width: 80vw;
+  height: 25vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #a6a2ef;
 }
 
 #Pick_me_button {
-    position: absolute;
-    /*top: 50vw;*/
-    margin-top: 10vw;
-    background-color: #A6A2EF;
+  position: absolute;
+  /*top: 50vw;*/
+  margin-top: 10vw;
+  background-color: #a6a2ef;
 }
 
 #Alla_spel_button {
-    position: absolute;
-    top: 100vw;
-    background-color: #A6A2EF;
-  }
+  position: absolute;
+  top: 100vw;
+  background-color: #a6a2ef;
+}
 
-  /*Alla spel css*/
+/*Alla spel css*/
 
-  .HeaderDiv{
-    height: 30vw;
-    background-color: aqua;
-  }
+.HeaderDiv {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 40vw;
+  background-color: #a6a2ef;
+}
 
-  .SidaHeader{
-    font-size: 15vw;
-    text-align: center;
-    line-height: 30vw;
-  }
+.SidaHeader {
+  font-size: 15vw;
+  text-align: center;
+  line-height: 30vw;
+}
+
+.Alla_spel_listans_text {
+  text-align: center;
+  background-color: #a6a2ef;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
