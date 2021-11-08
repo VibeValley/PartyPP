@@ -6,8 +6,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Lowerbar from "./LowerBar.js";
-import games from "./games.json";
+import Detaljsida from "./Detaljsida";
 
 //Första sidans knapp komponent som tar in en parameter som är det som kommer stå i knappen
 const FirstPageButton = ({ ButtonText }) => {
@@ -29,9 +28,7 @@ function App() {
           {/*Routes till olika sidor där element är den nya js filen för sidan*/}
           <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
           <Route path="/AllaSpel/" element={<AllaSpel />} />
-          <Route path="/AllaSpelSida/">
-            <AllaSpelSida />
-          </Route>
+          <Route path="/AllaSpel/:id" element={<Detaljsida />} />
           <Route path="/" element={<MainPage />} />
         </Switch>
       </Router>
@@ -52,13 +49,8 @@ function MainPage() {
       <Link to="/AllaSpel/">
         <FirstPageButton ButtonText={"Alla Spel"} />
       </Link>
-      <Lowerbar></Lowerbar>
     </div>
   );
-}
-
-function AllaSpelSida() {
-  return <h2>{games[0].name}</h2>;
 }
 
 function SlumpaSpel() {
