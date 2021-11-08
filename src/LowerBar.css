@@ -1,36 +1,36 @@
-.Foot{
-    position: fixed;
-    background-color: rgb(200, 41, 41);
-    width: 100%;
-    height: 100%;
-    margin-top: 12vw;
+.Foot {
+  position: fixed;
+  background-color: #a6a2ef;
+  width: 100%;
+  height: 25vw;
+  margin-top: 12vw;
+  bottom: 0;
 }
 
-.knappar_bot{
-    position: relative;
-    width: 22vw;
-    height: 25vw;
-    margin-left: 0%;
-    margin-right: 2%;
-    top: 0%;
-    margin-bottom: 20%;
-    background: rgb(200, 41, 41);
-    padding: 0;
-    border: none;
+.knappar_bot {
+  position: relative;
+  width: 22vw;
+  height: 25vw;
+  margin-left: 0%;
+  margin-right: 2%;
+  top: 0%;
+  margin-bottom: 20%;
+  background: #a6a2ef;
+  padding: 0;
+  border: none;
 }
 .knappar_bot:active {
     background-color: rgb(107, 20, 20);
 }
 
-.knappar_text{
-    
-    text-align: center;
-    margin-top: 60%;
-    color: white;
+.knappar_text {
+  text-align: center;
+  margin-top: 0%;
+  color: white;
 }
 
-.FPic{
-    margin-top: 4vw;
-    height: 50px;
-    width:  40px;
+.FPic {
+  margin-top: 4vw;
+  height: 50px;
+  width: 40px;
 }
