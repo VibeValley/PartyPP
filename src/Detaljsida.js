@@ -8,10 +8,6 @@ const getGameByID = (id) => {
   return games.find((game) => game.id === id);
 };
 
-function tillBaka() {
-  window.history.back();
-}
-
 function Detaljsida() {
   let { id } = useParams();
   console.log(id);
@@ -23,6 +19,7 @@ function Detaljsida() {
       <div className="HeaderDiv">
         <a href="/AllaSpel">
           <img src={logo} alt="tillbaka" className="HeadPic"></img>
+          <p className="TillbakaText">Alla spel</p>
         </a>
         <header className="SidaHeader" id="DetaljNamn">
           {ValdaSpel.name}

@@ -97,9 +97,19 @@ a {
   margin-left: 2vw;
   height: 7vw;
   width: 5vw;
+  float: left;
 }
 #DetaljNamn {
   line-height: 15vw;
+}
+
+.TillbakaText {
+  font-size: 4vw;
+  display: block;
+  margin: 0;
+  padding-top: 2vw;
+  line-height: 7vw;
+  margin-bottom: 2vw;
 }
 
 /*Lowerbar*/
