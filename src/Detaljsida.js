@@ -2,10 +2,15 @@ import "./App.css";
 import games from "./games.json";
 import { useParams } from "react-router-dom";
 import Lowerbar from "./LowerBar";
+import logo from "./Bilder/Tillbaka.png";
 
 const getGameByID = (id) => {
   return games.find((game) => game.id === id);
 };
+
+function tillBaka() {
+  window.history.back();
+}
 
 function Detaljsida() {
   let { id } = useParams();
@@ -16,7 +21,12 @@ function Detaljsida() {
   return (
     <div className="">
       <div className="HeaderDiv">
-        <header className="SidaHeader">{ValdaSpel.name}</header>
+        <a href="/AllaSpel">
+          <img src={logo} alt="tillbaka" className="HeadPic"></img>
+        </a>
+        <header className="SidaHeader" id="DetaljNamn">
+          {ValdaSpel.name}
+        </header>
       </div>
       <p>{ValdaSpel.rules}</p>
       <p>{ValdaSpel.spelare}</p>
