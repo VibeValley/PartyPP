@@ -1,4 +1,4 @@
-import "./LowerBar.css";
+import "./App.css";
 import logo1 from "./Bilder/Alla_spel.png";
 import logo2 from "./Bilder/FavvoSymbol.png";
 import logo3 from "./Bilder/Sök.png";
