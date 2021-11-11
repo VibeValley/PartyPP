@@ -25,7 +25,8 @@ function Detaljsida() {
           {ValdaSpel.name}
         </header>
       </div>
-      <p>{ValdaSpel.rules}</p>
+      <p>Material: {ValdaSpel.material}</p>
+      <p>{ValdaSpel.regler}</p>
       <p>{ValdaSpel.spelare}</p>
       <Lowerbar />
     </div>

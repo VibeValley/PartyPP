@@ -1,13 +1,13 @@
 import Lowerbar from "./LowerBar";
 
 
-function sok(){
+function Pick(){
     return (
     <div>
-        <p>Sök</p>
+        <p>Pick me</p>
         <Lowerbar></Lowerbar>
     </div>
     );
 }
 
-export default sok;
+export default Pick;

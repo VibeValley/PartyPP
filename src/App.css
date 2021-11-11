@@ -44,6 +44,10 @@ html {
   margin-right: 10%;
   background: var(--BlåFärg);
 }
+.Button_first_page:active{
+    background: #000000;
+}
+
 
 #Pick_me_button {
   position: absolute;
@@ -90,6 +94,10 @@ a {
   color: black;
 }
 
+.favBox {
+  float: right;
+}
+
 /*Detalj sida css*/
 
 .HeadPic {
@@ -117,14 +125,14 @@ a {
   position: fixed;
   background-color: #a6a2ef;
   width: 100%;
-  height: 25vw;
+  height: 23vw;
   margin-top: 12vw;
   bottom: 0;
 }
 
 .knappar_bot {
   position: relative;
-  width: 22vw;
+  width: 18vw;
   height: 25vw;
   margin-left: 0%;
   margin-right: 2%;
@@ -136,6 +144,8 @@ a {
 }
 
 .knappar_text {
+  font-family: /*"Brush Script MT"*/"Lucida Handwriting", "Times New Roman", serif;
+  font-size: 3vw;
   text-align: center;
   margin-top: 0%;
   color: white;
