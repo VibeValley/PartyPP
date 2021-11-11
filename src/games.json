@@ -1,15 +1,39 @@
 [
     {
         "name": "Beer Pong",
-        "rules": "kasta bolljäveln",
+        "beskrivning": "Kasta bollden",
+        "rules": "kasta bolljäveln och träffa",
         "spelare": "2",
         "id": "01"
     },
 
     {
         "name": "Fia Med Knuff",
-        "rules": "knuffa dom",
+        "beskrivning": "knuffa dom",
+        "rules": "Knuffa dom riktigt jävla hårt",
         "spelare": "4",
         "id": "02"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "beskrivning": "knuffa dom",
+        "rules": "Knuffa dom riktigt jävla hårt",
+        "spelare": "4",
+        "id": "03"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "beskrivning": "knuffa dom",
+        "rules": "Knuffa dom riktigt jävla hårt",
+        "spelare": "4",
+        "id": "04"
+    },
+    {
+        "name": "Fia Med Knuff",
+        "beskrivning": "knuffa dom",
+        "rules": "Knuffa dom riktigt jävla hårt",
+        "spelare": "4",
+        "id": "05"
     }
+   
 ]
