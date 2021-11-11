@@ -2,34 +2,27 @@ import "./App.css";
 import SpelLista from "./SpelLista.js";
 import games from "./games.json";
 import Lowerbar from "./LowerBar";
-import Fuse from 'fuse.js';
+import Fuse from "fuse.js";
 import React, { useState } from "react";
-
 
 //Alla spel sidan
 function AllaSpel() {
   const Lista_med_spel = games;
 
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
 
-  const fuse = new Fuse(games, { 
-    keys: [
-      'name',
-      'beskrivning',
-      'rules',
-      'spelare'
-    ],
-    includeScore : true
-  })
+  const fuse = new Fuse(games, {
+    keys: ["namn", "beskrivning", "regler", "spelare"],
+    includeScore: true,
+  });
 
   const results = fuse.search(query);
-  const gamesResult = results.map(results => results.item) ;
+  const gamesResult = results.map((results) => results.item);
 
-  function handleOnSearch({currentTarget= {} }){
-    const {value} = currentTarget;
+  function handleOnSearch({ currentTarget = {} }) {
+    const { value } = currentTarget;
     setQuery(value);
   }
-
 
   return (
     <div className="App">
@@ -38,15 +31,18 @@ function AllaSpel() {
         <header className="SidaHeader">Sök</header>
       </div>
 
-
       <form>
         <label>
-         Search:
-          <input type="text" name="name" value = {query} onChange={handleOnSearch} />
-       </label>
-          <input type="submit" value="Search" />
+          Search:
+          <input
+            type="text"
+            name="name"
+            value={query}
+            onChange={handleOnSearch}
+          />
+        </label>
+        <input type="submit" value="Search" />
       </form>
-
 
       <div className="ListaDiv">
         {/*Det som skriver ut hela listan med spel, 
