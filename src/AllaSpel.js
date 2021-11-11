@@ -2,13 +2,12 @@ import "./App.css";
 import SpelLista from "./SpelLista.js";
 import games from "./games.json";
 import Lowerbar from "./LowerBar";
-import Fuse from 'fuse.js';
-import React, { useState } from "react";
+import React from "react";
 
 
 //Alla spel sidan
 function AllaSpel() {
-  const Lista_med_spel = games;
+  
   
 
   return (

@@ -14,9 +14,9 @@ function AllaSpel() {
 
   const fuse = new Fuse(games, { 
     keys: [
-      'name',
+      'namn',
       'beskrivning',
-      'rules',
+      'regler',
       'spelare'
     ],
     includeScore : true
