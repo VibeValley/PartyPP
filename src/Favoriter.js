@@ -1,16 +1,18 @@
 import "./App.css";
-import SpelLista from "./SpelLista.js";
 import games from "./games.json";
 import Lowerbar from "./LowerBar";
 
+const getGameByID = (id) => {
+  return games.find((game) => game.id === id);
+};
 
-function Favoriter(){
-    return (
+function Favoriter() {
+  return (
     <div>
-        <p>Favvo</p>
-        <Lowerbar></Lowerbar>
+      <p>Favvo</p>
+      <Lowerbar />
     </div>
-    );
+  );
 }
 
 export default Favoriter;

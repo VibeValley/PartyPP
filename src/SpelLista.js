@@ -13,7 +13,7 @@ const SpelLista = ({ spel }) => {
     <div className="Alla_spel_listans_text">
       <button
         className="favBox"
-        onClick={() => addFavorit(spel.id, spel.name)}
+        onClick={() => addFavorit(spel.id, spel.namn)}
       />
       <Link to={"/AllaSpel/" + spel.id}>
         <div>
