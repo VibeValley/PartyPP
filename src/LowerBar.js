@@ -18,7 +18,7 @@ const Lowerbar = ({}) => {
         </button>
         </Link> 
 
-        <Link to="/Sok">
+        <Link to="/Favoriter">
         <button className="knappar_bot" type="button">
           <img src={logo2} alt="AllaSpel" className="FPic"></img>
           <p className="knappar_text">Favoriter</p>

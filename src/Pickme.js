@@ -4,7 +4,8 @@ import Lowerbar from "./LowerBar";
 function Pick(){
     return (
     <div>
-    <Lowerbar></Lowerbar>
+        <p>Pick me</p>
+        <Lowerbar></Lowerbar>
     </div>
     );
 }
