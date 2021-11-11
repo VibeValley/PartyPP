@@ -1,12 +1,12 @@
 import Lowerbar from "./LowerBar";
 
 
-function sok(){
+function laggTill(){
     return (
     <div>
-        <Lowerbar></Lowerbar>
+    <Lowerbar></Lowerbar>
     </div>
     );
 }
 
-export default sok;
+export default laggTill;
