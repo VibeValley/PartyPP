@@ -5,9 +5,8 @@ const SpelLista = ({ spel }) => {
   return (
     <Link to={"/AllaSpel/" + spel.id}>
       <div className="Alla_spel_listans_text">
-        <h1>{spel.name}</h1>
+        <h1>{spel.namn}</h1>
         <p>{spel.beskrivning}</p>
-        <p>{spel.spelare}</p>
       </div>
     </Link>
   );
