@@ -2,8 +2,9 @@
     {
         "name": "Beer Pong",
         "beskrivning": "Kasta bollden",
-        "rules": "kasta bolljäveln och träffa",
+        "regler": "kasta bolljäveln och träffa och fortstätt tills",
         "spelare": "2",
+        "material": "boll",
         "id": "01"
     },
 
@@ -12,6 +13,7 @@
         "beskrivning": "knuffa dom",
         "rules": "Knuffa dom riktigt jävla hårt",
         "spelare": "4",
+        "material": "boll",
         "id": "02"
     },
     {
@@ -19,6 +21,7 @@
         "beskrivning": "knuffa dom",
         "rules": "Knuffa dom riktigt jävla hårt",
         "spelare": "4",
+        "material": "boll",
         "id": "03"
     },
     {
@@ -26,6 +29,7 @@
         "beskrivning": "knuffa dom",
         "rules": "Knuffa dom riktigt jävla hårt",
         "spelare": "4",
+        "material": "boll",
         "id": "04"
     },
     {
@@ -33,6 +37,7 @@
         "beskrivning": "knuffa dom",
         "rules": "Knuffa dom riktigt jävla hårt",
         "spelare": "4",
+        "material": "boll",
         "id": "05"
     }
    

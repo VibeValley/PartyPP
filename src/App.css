@@ -90,6 +90,10 @@ a {
   color: black;
 }
 
+.favBox {
+  float: right;
+}
+
 /*Detalj sida css*/
 
 .HeadPic {

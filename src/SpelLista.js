@@ -1,15 +1,21 @@
 import "./App.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 const SpelLista = ({ spel }) => {
+  //const [favorit, väljFavorit] = useState("");
   // Detta är hur den skriver ut hela listan
   return (
-    <Link to={"/AllaSpel/" + spel.id}>
-      <div className="Alla_spel_listans_text">
-        <h1>{spel.name}</h1>
-        <p>{spel.beskrivning}</p>
-        <p>{spel.spelare}</p>
-      </div>
-    </Link>
+    <div className="Alla_spel_listans_text">
+      <input type="checkbox" className="favBox" />
+      <Link to={"/AllaSpel/" + spel.id}>
+        <div>
+          <h1>{spel.name}</h1>
+          <p>{spel.beskrivning}</p>
+          <p>{spel.spelare}</p>
+        </div>
+      </Link>
+    </div>
   );
 };
 
