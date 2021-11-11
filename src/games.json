@@ -1,44 +1,103 @@
 [
     {
-        "name": "Beer Pong",
-        "beskrivning": "Kasta bollden",
-        "regler": "kasta bolljäveln och träffa och fortstätt tills",
-        "spelare": "2",
-        "material": "boll",
+        "namn": "Beer Pong",
+        "beskrivning": "Sätt pingisbollar i ölglas och därmed få motståndaren att dricka",
+        "regler": "Varje lag ställer upp 10 muggar i en pyramidformation och fyller dem med valfri dryck. Vilket lag som börjar bestäms gentlemannamässigt eller genom att singla slant. Varje spelare kastar en pingisboll per omgång. Om en boll landar i en mugg ska motståndarlaget dricka upp innehållet och muggen tas ur spel. Om en boll studsar i bordet och därefter landar i en mugg, dricks 2 muggar. Om två bollar landar i samma mugg får det attackerande laget kasta igen. Om en boll studsar i bordet eller träffar kanten av en mugg, får det försvarande laget slå bort bollen med händerna. Om det försvarande laget nuddar en boll i luften (innan studs) får det attackerande laget välja en valfri mugg som motståndarlaget ska tömma. Varje lag har rätt till 2 re-racks, dvs. omflyttning av motståndarens muggar. Re-racks får göras när turen går över till ens lag, men ej efter att man börjat kasta. Spelet är slut när endera lag har sänkt samtliga av moståndarens 10 muggar. Det förlorande laget får dock en chans att kasta tills de missar.",
+        "spelare": "2 spelare eller två lag",
+        "material": "Pingisbollar, plastmuggar och valfri dryck",
         "id": "01"
     },
 
     {
-        "name": "Fia Med Knuff",
-        "beskrivning": "knuffa dom",
-        "rules": "Knuffa dom riktigt jävla hårt",
-        "spelare": "4",
-        "material": "boll",
+        "namn": "Ring on fire",
+        "beskrivning": "Dra ett kort från cirkeln och följ vad kortets regler lyder",
+        "regler": "Innan spelet börjar ska alla deltagare hälla ett par klunkar av sin egen dricka i “dräparen” (den stora bägaren). Kortleken sprids sedan jämnt nedvänd runt dräparen för att skapa en sluten cirkel. Korten bör överlappa varandra. Varje spelare turas sedan om att ta ett kort runt. Det är bara tillåtet att använda en hand när man tar sitt kort. Spelaren följer sedan den regeln som kortets valör motsvarar. Se nedan. Den spelare som bryter cirkeln får dricka hela dräparen. 2-6 (Ruter & Hjärter): Spelarna får dela ut så många klunkar som kortets värde anger. Spelarna kan ge alla klunkar till en person eller dela upp dem över flera.2-6 (Spader & Klöver): Spelarna måste själva dricka det av korten angivna antalet klunkar. 7 – Toapaus: Detta kortet får sparas under spelets gång och ger spelaren som innehar kortet rätt till att ta en toalettpaus. 8 – Tumregeln: Detta kortet sparas under spelets gång. Den som innehar kortet kan sedan när som placera sin tumme på bordskanten. Den spelare som sist gör likadant ska dricka tre straffklunkar. 9 – Tema: Spelaren säger ett tema. T.ex. drinkar. Då ska varje spelare runt bordet nämna en drink, och den som tvekar eller repeterar en tidigare drink får dricka tre straffklunkar. 10 – Regel: Spelaren får välja regel som ska gälla under resterande delen av spelet. Det kan t.ex. vara att alla måste dricka med vänster hand, eller stå upp när man dricker. Missar man regeln får man dricka tre straffklunkar. Knekt – Rim: Den person som drar detta kortet ska säga ett ord. Sedan ska resten av spelarna turas om att rimma runt bordet. Den som först tvekar eller repeterar ett tidigare sagt ord får dricka tre straffklunkar. Dam – Skål: Samtliga deltagare skålar och dricker en klunk. Kung – Posera: Spelaren som får detta kort, kan när som helst under spelet ställa sig i en pose. Den deltagare som är sist på att härma posen får dricka tre straffklunkar. A – Vattenfall: Detta går till så att samtliga spelare ska börja dricka samtidigt. Den spelare som drog kort får sluta precis när han vill, och spelaren efter sig får inte sluta förrän denna gjort det. Och likaså med spelaren efter, tills man kommit runt bordet och allas föregående spelare har slutat att dricka.",
+        "spelare": "2+",
+        "material": "Kortlek, valfri dryck och bägare (stort glas)",
         "id": "02"
     },
+
     {
-        "name": "Fia Med Knuff",
-        "beskrivning": "knuffa dom",
-        "rules": "Knuffa dom riktigt jävla hårt",
-        "spelare": "4",
-        "material": "boll",
+        "namn": "Burr",
+        "beskrivning":"Burr är ett dryckesspel som sätter dina matematiska sidor på prov",
+        "regler": "En spelare börjar med att säga 1, nästa säger 2, nästa 3, osv. Spelarna räknar alltså uppåt i turordning. Det som gör Burr svårt är att det innehåller förbjudna tal som inte får sägas: Tal som är delbara med sju: (7, 14, 21, 28, 35, …), Tal som innehåller sju: (17, 27, 37, …), Dubbeltal, tal som innehåller två av samma siffror: (11, 22, 33, 44, …) Istället för att säga det förbjudna talet säger spelaren Burr. Vid burr, byter räkneordningen håll. Skulle en spelare av misstag säga ett förbjudet eller fel tal eller burr vid fel tillfälle tvingas denna dricka en straffklunk. Denna spelare börjar sedan leken genom att säga 1.",
+        "spelare": "2+",
+        "material": "Valfri dryck",
         "id": "03"
     },
+
     {
-        "name": "Fia Med Knuff",
-        "beskrivning": "knuffa dom",
-        "rules": "Knuffa dom riktigt jävla hårt",
-        "spelare": "4",
-        "material": "boll",
-        "id": "04"
+    "namn": "Bussen",
+    "beskrivning":"Bussen är ett spännande enkelt sällskapspel. Allt som behövs är en kortlek",
+    "regler": "Placera ut 9 kort, nedåtvända på ett bord så att de skapar en 3×3-formation. Fördela resten av korten jämt bland spelarna. Överblivna kort läggs åt sedan. Omgång 1: En åt gången vänder spelledaren upp ett kort. Om en spelare har ett kort på hand som matchar ett kort som vänds upp, placerar de det kortet ovanpå detta. För varje kort de placerar får de nominera en spelare som får dricka två klunkar. Fortsätt tills alla korten på bordet har vänts upp. Omgång 2: Spelledaren blandar sedan alla korten som lags upp bordet och lägger återigen upp 9 stycken nedåtvända kort på bordet så att de bildar en diamant (1 – 2 – 3 – 2 – 1). Nu ska alla spelare som fortfarande har kort på hand ”åka buss”. Alla spelare som åker buss spelar nu tillsammans. Målet är nu att vända ett kort i änden av diamanten, och sedan vända det intilliggande kortet för att ta sig till andra sidan av diamanten. Om ett klätt kort (Knekt, Dam eller Kung) eller ett Ess vänds upp måste alla spelare som åker buss dricka tre klunkar. Spelet är slut när spelarna lyckats ta sig från ena sidan, till den andra av diamanten utan att vända upp ett klätt kort eller Ess. Då blandas kortleken och spelet börjar om från början.",
+    "spelare": "2+",
+    "material": "Kortlek och valfri dryck",
+    "id": "04"
     },
+
     {
-        "name": "Fia Med Knuff",
-        "beskrivning": "knuffa dom",
-        "rules": "Knuffa dom riktigt jävla hårt",
-        "spelare": "4",
-        "material": "boll",
-        "id": "05"
-    }
+    "namn": "Caps",
+    "beskrivning":"Caps (Capsning) är ett dryckesspel som går ut på att kasta kapsyler i glas",
+    "regler": "Förberedelse: Spelarna placerar sig i en cirkel med en benlängds avstånd från ett glas som placeras på golvet, detta är kallat mittenglaset. Man sitter i skräddarställning (med benen i kors). Innan spelet börjar fyller varje spelare sitt glas med alkohol motsvarandes höjden av två fingrar och placerar det sedan framför sig så att de personliga glasen bildar en ring runt mittenglaset (de ska dock inte stå kant i kant utan det får gärna vara ca 1 dm mellan mittenglas och de personliga glasen). Den som ska göra första kastet fyller upp mittenglaset med sin egen alkoholhaltiga dryck. Spelregler: Första spelaren försöker träffa en annan spelares glas med en kapsyl, i lagturneringar av caps måste spelaren alltid sikta på den spelare som sitter mitt emot eftersom man sitter placerad så att den mittemot alltid är medlem av ett annat lag. Om kapsylen träffar glaset är personen utmanad, detta betyder att denne måste svara genom att kasta en kapsyl i utmanarens glas. Träffar kapsylen måste utmanaren försöka träffa den utmanades glas en gång till, detta fortsätter tills en av dem missar. Den som missar måste då dricka ur sitt eget glas. Dock behöver en spelare endast dricka ur sitt glas ifall denne träffar mittenglaset (se under) eller om denne förlorar en utmaning, turen går endast vidare ifall en spelare missar utan att vara utmanad. Om en spelare (utan att vara utmanad eller ha utmanat) träffar mittenglaset måste samtliga spelare dricka ur sina glas. Den som träffad mittenglaset måste även tömma detta samt fylla på det igen med valfri alkoholhaltig dryck. Kastregler: För att ett kast skall anses korrekt får armbågen aldrig vara framför knäet. Om armbågen befinner sig framför knäet måste spelaren oberoende av var kapsylen hamnat dricka ur sitt eget glas. Vinkeln mellan under och överarm får dessutom inte överstiga 90 grader.",
+    "spelare": "2+",
+    "material": "Plastmugg, valfri dryck och kapsyler",
+    "id": "05"
+    },
+
+    {
+    "namn": "Det relaterade ordet",
+    "beskrivning":"Det relaterade ordet är en spännande ordlek utan tillbehör",
+    "regler": "1. Alla deltagare sätter sig runt i en ring och en person utses som lekledare. 2. Lekledare utser en person att börja, då denna säga ett valfritt ord, vilket som helst ex. tekopp. 3. Nästa person ska säga ett ord som relaterar med tekopp ex. keramik. 4. Spelet fortsätter tills någon säger ett orelaterat ord (här är lekledare viktig). 5. Nu ska hon eller han dricka den förutbestämda mängden alkohol. 6. Kom ihåg att lekledarens röst är avgörande!",
+    "spelare": "3+",
+    "material": "Inga material, valdri dryck",
+    "id": "06"
+    },
+
+    {
+    "namn": "Fanclub",
+    "beskrivning":"Leken styrs utav en förutbestämd spellista och man dricker vid bestämda platser i låtarna",
+    "regler": "Spellistan: 1. Alphaville – Forever Young (5 shots = 1,6/min). 2. Mr. Mister – Broken Wings (5 shots = 1,25/min). 3. Men at work – Land down under (3 shots = 0,75/min). 4. Remy Zero – Save Me (7 shots = 1,75/minut). Steg för steg. 1. Fyll alla glas med starksprit. 2. Starta spellistan i den ordning låtarna står listade här. 3. Varje gång sångaren sjunger “Forever Young” sveper alla ett av sina glas och sjunger med i texten “I want to be forever young”. Man sveper bara när nästa ord i texten är “I want to be forever young”. 4. Nästa låt och när sångaren sjunger “So take” lyfter alla sina glas. Vid “thees broken” dunkar alla sina glas i bordet och vid “wings” sveper alla ett av sina glas. 5. Vid tredje låten dunkar alla ett av sina glas i bordet i takt med refrängens “Can’t you hear, can’t you hear” och sveper glaset vid orden “the thunder”. Svepandet slutar efter tredje svepet. 6. Nu när fjärde låten kommer i gång är alla förmodligen så fulla att de inte skulle klara av rytmiska dunkanden så nu dricker man bara varje gång man hör orden “save me”. Glasen fylls på i luckorna i sångerna när det finns tid. Ofta får man dricka två på raken vilket gör det behändigt med 2 glas till varje spelare. Den spelare som missar ett svep eller sveper på fel ställen i texten får dricka ett extra svep som straff. Man får även straff om man dunkar glaset i bordet på fel ställen, om man spiller för mycket eller på annat sätt visar att man inte tillhör den hängivna fanclub för respektive band.",
+    "spelare": "2+",
+    "material": "Musik och valdri dryck",
+     "id": "07"
+    },
+
+    {
+    "namn": "Fyllekubb",
+    "beskrivning":"Fyllekubb är baserat på det klassiska spelet kubb, men med alkohol inblandat",
+    "regler": "Varje gång ni träffar och slår ner en kubb måste alla i motståndarlaget dricka tre klunkar. Varje gång ni träffar med en kubb mot en kubb i motståndarnas laget ska de dricka så många klunkar som laget har kubbar. Om någon skulle träffa eller slå ner kungen under spelets gång ska alla i det laget svepa/dricka upp allt som finns kvar i glaset. Laget som förlorar ska svepa/dricka upp allt som finns kvar i glaset eller flaskan.",
+    "spelare": "4+",
+    "material": "Kubbspel och valfri dryck",
+    "id": "08"
+    },
+
+    {
+    "namn": "",
+    "beskrivning":"",
+    "regler": "",
+    "spelare": "",
+    "material": "",
+    "id": ""
+    },
+
+    {
+    "namn": "",
+    "beskrivning":"",
+    "regler": "",
+    "spelare": "",
+    "material": "",
+    "id": ""
+    },   
+    
+    {
+    "namn": "",
+    "beskrivning":"",
+    "regler": "",
+    "spelare": "",
+    "material": "",
+    "id": ""
+     } 
+
+
    
 ]

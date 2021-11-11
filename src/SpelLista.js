@@ -17,9 +17,8 @@ const SpelLista = ({ spel }) => {
       />
       <Link to={"/AllaSpel/" + spel.id}>
         <div>
-          <h1>{spel.name}</h1>
+          <h1>{spel.namn}</h1>
           <p>{spel.beskrivning}</p>
-          <p>{spel.spelare}</p>
         </div>
       </Link>
     </div>
