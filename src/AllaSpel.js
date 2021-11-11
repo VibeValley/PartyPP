@@ -6,6 +6,7 @@ import Lowerbar from "./LowerBar";
 //Alla spel sidan
 function AllaSpel() {
   const Lista_med_spel = games;
+
   return (
     <div className="App">
       {/*Det som står i rutan högst upp på sidan*/}
