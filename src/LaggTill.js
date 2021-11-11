@@ -4,7 +4,8 @@ import Lowerbar from "./LowerBar";
 function laggTill(){
     return (
     <div>
-    <Lowerbar></Lowerbar>
+        <p>Lägg till</p>
+        <Lowerbar></Lowerbar>
     </div>
     );
 }
