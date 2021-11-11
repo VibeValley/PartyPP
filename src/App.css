@@ -119,6 +119,9 @@ a {
   line-height: 7vw;
   margin-bottom: 2vw;
 }
+.detaljDiv{
+  overflow: scroll;
+}
 
 /*Lowerbar*/
 .Foot {
