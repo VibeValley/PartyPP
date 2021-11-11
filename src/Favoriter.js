@@ -7,6 +7,8 @@ const getGameByID = (id) => {
 };
 
 function Favoriter() {
+  const favspel = window.localStorage;
+  console.log(favspel);
   return (
     <div>
       <p>Favvo</p>

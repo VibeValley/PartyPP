@@ -44,10 +44,9 @@ html {
   margin-right: 10%;
   background: var(--BlåFärg);
 }
-.Button_first_page:active{
-    background: #000000;
+.Button_first_page:active {
+  background: #000000;
 }
-
 
 #Pick_me_button {
   position: absolute;
@@ -96,6 +95,8 @@ a {
 
 .favBox {
   float: right;
+  height: 5vw;
+  width: 5vw;
 }
 
 /*Detalj sida css*/
@@ -119,7 +120,7 @@ a {
   line-height: 7vw;
   margin-bottom: 2vw;
 }
-.detaljDiv{
+.detaljDiv {
   overflow: scroll;
 }
 
@@ -147,7 +148,8 @@ a {
 }
 
 .knappar_text {
-  font-family: /*"Brush Script MT"*/"Lucida Handwriting", "Times New Roman", serif;
+  font-family: /*"Brush Script MT"*/ "Lucida Handwriting", "Times New Roman",
+    serif;
   font-size: 3vw;
   text-align: center;
   margin-top: 0%;
@@ -159,5 +161,3 @@ a {
   height: 50px;
   width: 40px;
 }
-
-
