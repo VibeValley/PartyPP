@@ -19,6 +19,9 @@
   padding: 0;
   border: none;
 }
+.knappar_bot:active {
+    background-color: rgb(107, 20, 20);
+}
 
 .knappar_text {
   text-align: center;
