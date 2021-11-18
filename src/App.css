@@ -98,7 +98,7 @@ html {
 }
 
 .ListaDiv {
-  
+
 }
 
 .Alla_spel_listans_text {
@@ -117,12 +117,14 @@ html {
   );
   margin-left: 2vw;
   margin-right: 5vw;
-  color: white;
+  
   font-family: myFirstFont;
   margin-bottom: 5vw;
 }
 
 .ListaTitel {
+  color: #031D44;
+  
   text-align: center;
   margin-bottom: 0vw;
 }
