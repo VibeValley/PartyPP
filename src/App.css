@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: myFirstFont;
-  src: url(sansation_light.woff);
+  src: url("KeepCalm-Medium.ttf");
 }
 
 html {
@@ -20,17 +20,17 @@ html {
   height: 60vw;
   font-size: 14vw;
   text-align: center;
-  font-family: Verdana, sans-serif;
+  font-family: myFirstFont;
   color: #161b40;
 }
 
 .First_page_buttontext {
+  font-family: myFirstFont;
   display: inline-block;
   position: relative;
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  font-family: Verdana, sans-serif;
   line-height: normal;
   font-size: 8vw;
   color: white;
@@ -51,7 +51,8 @@ html {
   margin-right: 10%;
   text-align: center;
   align-content: center;
-  background: var(--BlåFärg);
+  background-image: linear-gradient(180deg, rgba(213, 71, 181, 0) 0%, #D547B5 0.01%, #D76E33 100%, #D76E33 100%);
+  border: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5))
 }
 .Button_first_page:active{
@@ -158,7 +159,7 @@ a {
 }
 
 .knappar_text {
-  font-family: /*"Brush Script MT"*/"Lucida Handwriting", "Times New Roman", serif;
+  font-family: myFirstFont;
   font-size: 3vw;
   text-align: center;
   margin-top: 0%;
