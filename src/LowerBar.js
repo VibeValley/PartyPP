@@ -7,6 +7,7 @@ import logo5 from "./Bilder/LäggTillSymbol.png";
 import { Link } from "react-router-dom";
 
 
+
 const Lowerbar = ({}) => {
   return (
     <div>

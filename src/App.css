@@ -80,6 +80,8 @@ html {
 
 /*Alla spel css*/
 
+
+
 .HeaderDiv {
   position: sticky;
   top: 0;
@@ -153,14 +155,14 @@ a {
 
 #speltitel {
   text-align: center;
-  font-size: 8vw;
-  text-shadow: 2px 2px 5px black;
+  font-size: 8.5vw;
+  text-shadow: 1.5px 3px 7px black;
   margin-top: 9vw;
 }
 
 #speldetalj {
   display: inline-block;
-  background-color:aliceblue;
+  background-color:rgba(250, 208, 208, 0.6);
   border-top-left-radius: 6vw;
   border-top-right-radius: 6vw;
   font-size: 5vw;
@@ -222,6 +224,8 @@ a {
   padding: 0;
   border: none;
 }
+
+
 
 .knappar_text {
   font-family: myFirstFont;
