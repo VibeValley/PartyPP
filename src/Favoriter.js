@@ -22,7 +22,7 @@ function Favoriter() {
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Favoriter</header>
-      </div>
+      
 
       <div className="ListaDiv">
         {/*Här skriver vi ut listan med favoritspel, som finns i window.localStorage*/}
@@ -30,6 +30,7 @@ function Favoriter() {
           <SpelLista key={allaSpel.id} spel={allaSpel} />
         ))}
 
+      </div>
       </div>
       <Lowerbar></Lowerbar>
     </div>

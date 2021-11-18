@@ -26,9 +26,9 @@ function Detaljsida() {
         </header>
       
       <div className="detaljDiv">
-      <p>Antal spelare: {ValdaSpel.spelare}</p>
-      <p>Material: {ValdaSpel.material}</p>
-      <p>Relger: {ValdaSpel.regler}</p>
+      <p className="spelare" id="detalj_ID">Antal spelare: {ValdaSpel.spelare}</p>
+      <p className="material" id="detalj_ID">Material: {ValdaSpel.material}</p>
+      <p className="regler" id="detalj_ID">Relger: {ValdaSpel.regler}</p>
       </div>
       </div>
       <Lowerbar />
