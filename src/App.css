@@ -5,7 +5,7 @@
 
 html {
   height: calc(100%);
-  background: #f5eee0;
+  background-image: url("Bilder/bakgrund-startsida.png");
   box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
 }
 
