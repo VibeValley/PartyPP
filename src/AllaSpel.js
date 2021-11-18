@@ -14,7 +14,7 @@ function AllaSpel() {
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Alla Spel</header>
-      </div>
+        
 
       <div className="ListaDiv">
         {/*Det som skriver ut hela listan med spel, 
@@ -23,6 +23,8 @@ function AllaSpel() {
           <SpelLista key={allaSpel.id} spel={allaSpel} />
         ))}
       </div>
+      </div>
+      
       <Lowerbar></Lowerbar>
     </div>
   );
