@@ -2,6 +2,10 @@
 :root {
   --BlåFärg: #a6a2ef;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url("KeepCalm-Medium.ttf");
+}
 
 html {
   height: calc(100%);
@@ -16,33 +20,40 @@ html {
   height: 60vw;
   font-size: 14vw;
   text-align: center;
-  font-family: Verdana, sans-serif;
+  font-family: myFirstFont;
   color: #161b40;
 }
 
 .First_page_buttontext {
+  font-family: myFirstFont;
+  display: inline-block;
   position: relative;
-  height: 25vw;
   margin: 0 auto;
   text-align: center;
-  font-family: Verdana, sans-serif;
-  font-size: 9vw;
-  line-height: 25vw;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 8vw;
   color: white;
 }
 
 .Button_div {
   position: relative;
+  
   height: 50vw;
   margin: 0 auto;
 }
 
 .Button_first_page {
   width: 80vw;
-  height: 25vw;
+  height: 20vw;
+  border-radius: 30px 30px 30px 30px;
   margin-left: 10%;
   margin-right: 10%;
-  background: var(--BlåFärg);
+  text-align: center;
+  align-content: center;
+  background-image: linear-gradient(180deg, rgba(213, 71, 181, 0) 0%, #D547B5 0.01%, #D76E33 100%, #D76E33 100%);
+  border: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5))
 }
 .Button_first_page:active {
   background: #000000;
@@ -148,8 +159,7 @@ a {
 }
 
 .knappar_text {
-  font-family: /*"Brush Script MT"*/ "Lucida Handwriting", "Times New Roman",
-    serif;
+  font-family: myFirstFont;
   font-size: 3vw;
   text-align: center;
   margin-top: 0%;
