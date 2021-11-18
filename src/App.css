@@ -83,12 +83,32 @@ html {
   overflow: scroll;
 }
 
-.Alla_spel_listans_text {
+div.Alla_spel_listan {
+  border-radius: 10vw;
   text-align: center;
-  background-color: var(--BlåFärg);
   margin-left: 5vw;
   margin-right: 5vw;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+
+  background: rgba(131, 80, 203, 0.8);
+  
 }
+
+div.Alla_spel_titel {
+
+}
+div.Alla_spel_Beskrivning{
+
+}
+div.Alla_spel_Spelare{
+
+}
+
+div.Alla_spel_Material{
+
+}
+
 a {
   text-decoration: none;
   color: black;
