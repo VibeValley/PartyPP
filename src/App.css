@@ -38,7 +38,7 @@ html {
 
 .Button_div {
   position: relative;
-  
+
   height: 50vw;
   margin: 0 auto;
 }
@@ -51,9 +51,15 @@ html {
   margin-right: 10%;
   text-align: center;
   align-content: center;
-  background-image: linear-gradient(180deg, rgba(213, 71, 181, 0) 0%, #D547B5 0.01%, #D76E33 100%, #D76E33 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(213, 71, 181, 0) 0%,
+    #d547b5 0.01%,
+    #d76e33 100%,
+    #d76e33 100%
+  );
   border: 0px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5))
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 .Button_first_page:active {
   background: #000000;
@@ -96,10 +102,30 @@ html {
 }
 
 .Alla_spel_listans_text {
+  width: 95vw;
+  height: 27vw;
+  border-radius: 30px 30px 30px 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
   text-align: center;
-  background-color: var(--BlåFärg);
-  margin-left: 5vw;
+  background-image: linear-gradient(
+    180deg,
+    rgba(213, 71, 181, 0) 0%,
+    #d547b5 0.01%,
+    #d76e33 100%,
+    #d76e33 100%
+  );
+  margin-left: 2vw;
   margin-right: 5vw;
+}
+
+.ListaTitel {
+  margin-bottom: 0vw;
+}
+
+.ListaBesk {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 a {
   text-decoration: none;
