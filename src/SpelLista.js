@@ -20,8 +20,8 @@ const SpelLista = ({ spel }) => {
       />
       <Link to={"/AllaSpel/" + spel.id}>
         <div>
-          <h1>{spel.namn}</h1>
-          <p>{spel.beskrivning}</p>
+          <h1 className="ListaTitel">{spel.namn}</h1>
+          <p className="ListaBesk">{spel.beskrivning}</p>
         </div>
       </Link>
     </div>
