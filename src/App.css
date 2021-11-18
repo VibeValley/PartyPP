@@ -10,7 +10,11 @@
 html {
   height: calc(100%);
   background-image: url("Bilder/bakgrund-startsida.png");
-  box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
+}
+
+.App {
+  height: calc(100%);
+  background-image: url("Bilder/bakgrundVanlig.png");
 }
 
 /*Första sidans css*/
@@ -93,7 +97,6 @@ html {
 }
 
 .SidaHeader {
-  
   border: 0px;
   font-size: 15vw;
   text-align: center;
@@ -125,12 +128,16 @@ html {
 .ListaTitel {
   text-align: center;
   margin-bottom: 0vw;
+  color: #550055;
+  font-family: myFirstFont;
 }
 
 .ListaBesk {
   margin-top: 2vw;
   margin-left: 2vw;
   margin-right: 2vw;
+  color: rgb(192, 192, 192);
+  font-family: myFirstFont;
 }
 a {
   text-decoration: none;
