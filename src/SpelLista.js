@@ -2,8 +2,11 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const addFavorit = (valdSpel, valdName) => {
-  window.localStorage.setItem(valdSpel, JSON.stringify(valdName));
+const addFavorit = (id, name) => {
+  if(localStorage.getItem(id))
+    localStorage.removeItem(id);
+  else
+    window.localStorage.setItem(id, JSON.stringify(name));
 };
 
 const SpelLista = ({ spel }) => {
@@ -17,8 +20,8 @@ const SpelLista = ({ spel }) => {
       />
       <Link to={"/AllaSpel/" + spel.id}>
         <div>
-          <h1>{spel.namn}</h1>
-          <p>{spel.beskrivning}</p>
+          <h1 className="ListaTitel">{spel.namn}</h1>
+          <p className="ListaBesk">{spel.beskrivning}</p>
         </div>
       </Link>
     </div>
