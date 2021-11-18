@@ -15,7 +15,7 @@ function Detaljsida() {
   const ValdaSpel = getGameByID(id);
 
   return (
-    <div className="">
+    <div className="App">
       <div className="HeaderDiv">
         <a href="/AllaSpel">
           <img src={logo} alt="tillbaka" className="HeadPic"></img>
