@@ -7,6 +7,11 @@ import {
   Link,
 } from "react-router-dom";
 import Detaljsida from "./Detaljsida";
+import Sok from "./sok";
+import Pickme from "./Pickme";
+import LaggTill from "./LaggTill";
+import Favoriter from "./Favoriter";
+
 
 //Första sidans knapp komponent som tar in en parameter som är det som kommer stå i knappen
 const FirstPageButton = ({ ButtonText }) => {
@@ -29,7 +34,12 @@ function App() {
           <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
           <Route path="/AllaSpel/" element={<AllaSpel />} />
           <Route path="/AllaSpel/:id" element={<Detaljsida />} />
+          <Route path="/Sok/" element={<Sok/>} />
+          <Route path="/Valj_at_mig/" element={<Pickme />} />
+          <Route path="/Lagg_till/" element={<LaggTill />} />
+          <Route path="/Favoriter/" element={<Favoriter/>} />
           <Route path="/" element={<MainPage />} />
+
         </Switch>
       </Router>
     </div>

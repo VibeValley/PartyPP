@@ -3,7 +3,7 @@
         "namn": "Beer Pong",
         "beskrivning": "Sätt pingisbollar i ölglas och därmed få motståndaren att dricka",
         "regler": "Varje lag ställer upp 10 muggar i en pyramidformation och fyller dem med valfri dryck. Vilket lag som börjar bestäms gentlemannamässigt eller genom att singla slant. Varje spelare kastar en pingisboll per omgång. Om en boll landar i en mugg ska motståndarlaget dricka upp innehållet och muggen tas ur spel. Om en boll studsar i bordet och därefter landar i en mugg, dricks 2 muggar. Om två bollar landar i samma mugg får det attackerande laget kasta igen. Om en boll studsar i bordet eller träffar kanten av en mugg, får det försvarande laget slå bort bollen med händerna. Om det försvarande laget nuddar en boll i luften (innan studs) får det attackerande laget välja en valfri mugg som motståndarlaget ska tömma. Varje lag har rätt till 2 re-racks, dvs. omflyttning av motståndarens muggar. Re-racks får göras när turen går över till ens lag, men ej efter att man börjat kasta. Spelet är slut när endera lag har sänkt samtliga av moståndarens 10 muggar. Det förlorande laget får dock en chans att kasta tills de missar.",
-        "spelare": "2 spelare eller två lag",
+        "spelare": "2 spelare eller 2 lag",
         "material": "Pingisbollar, plastmuggar och valfri dryck",
         "id": "01"
     },
@@ -63,32 +63,92 @@
     },
 
     {
-    "namn": "",
-    "beskrivning":"",
-    "regler": "",
-    "spelare": "",
-    "material": "",
-    "id": ""
+    "namn": "Fyllekubb",
+    "beskrivning":"Fyllekubb är baserat på det klassiska spelet kubb, men med alkohol inblandat",
+    "regler": "Varje gång ni träffar och slår ner en kubb måste alla i motståndarlaget dricka tre klunkar. Varje gång ni träffar med en kubb mot en kubb i motståndarnas laget ska de dricka så många klunkar som laget har kubbar. Om någon skulle träffa eller slå ner kungen under spelets gång ska alla i det laget svepa/dricka upp allt som finns kvar i glaset. Laget som förlorar ska svepa/dricka upp allt som finns kvar i glaset eller flaskan.",
+    "spelare": "4+",
+    "material": "Kubbspel och valfri dryck",
+    "id": "08"
     },
 
     {
-    "namn": "",
-    "beskrivning":"",
-    "regler": "",
-    "spelare": "",
-    "material": "",
-    "id": ""
+    "namn": "Fuck the dealer",
+    "beskrivning":"Fuck the dealer spelas med hjälp av en kortlek",
+    "regler": "Alla som deltar har en alkoholhaltig dryck. En person börjar med kortleken (dealern) och tittar på det översta kortet. Personen som sitter till vänster ska nu gissa vilket värde kortet har, varvid dealern säger om kortet är högre eller lägre. Man får nu en gissning till, har man fel även denna gång får man dricka så många klunkar som man är ifrån kortets värde. Kortet läggs på bordet, synligt för alla. Turen att gissa går nu till nästa person. När tre personer i rad har gissat fel på båda sina gissningar skickas kortleken till nästa person som då blir dealer. Gissar man rätt på första försöket måste dealern dricka 10 klunkar, gissar man rätt på andra försöket måste dealern dricka 5 klunkar.",
+    "spelare": "2+",
+    "material": "Kortlek och valfri dryck",
+    "id": "09"
     },
 
     {
-    "namn": "",
-    "beskrivning":"",
-    "regler": "",
-    "spelare": "",
-    "material": "",
-    "id": ""
-    }    
+    "namn": "Full joker",
+    "beskrivning":"Full joker är ett smärtsamt dryckesspel som spelas med hjälp av en kortlek",
+    "regler": "1. Dela ut tre-fyra kort till alla deltagare. 2. Se till att alla har varsin shot. 3. Den som är fullast utses att börja spelet. 4. Hon eller han väljer ett kort och personen till vänster får gissa om kortet är lägre eller högre än sju. 5. Gissar personen rätt får denne dricka upp shoten, fylla på glaset igen och ta ett kort av den personen, eller bara ge denna person en smäll/örfil! 6. Den som får en joker måste dricka upp en hel burk/flaska av cider eller öl. Om hon eller han misslyckas med att dricka upp allt får alla utdela en smäll/örfil! 7. Full Joker fortlöper tills alla deltagare är för fulla eller bara bråkar med varandra.",
+    "spelare": "2+",
+    "material": "Kortlek + 4 jokrar och en shot per spelare",
+    "id": "10"
+    },   
+    
+    {
+    "namn": "Fuzzy Duck",
+    "beskrivning":"Fuzzy Duck är en rolig ordlek, de krävs att du är snabb och inte snubblar på orden",
+    "regler": "1. Spelet börjar med att någon person säger “Fuzzy duck” till personen till vänster. 2. Då ska nästa fortsätta säga så tills någon säger “Does he” för då vänder spelet riktning och då ska alla istället säga “Duck Fuzzy”. 3. Spelet fortsätter till någon säger “Does he” och då går spelet tillbaka till ursprungsläget det vill säga alla säga “Fuzzy Duck” igen. 4. “Fuzzy duck” ska spelas snabbt! Det är inte meningen att varje person ska få 10 sekunders betänketid, utan bara nån sekund. 5. Om någon spelare säger fel, skall denne dricka två klunkar. 6. Om någon deltagare säger “Does he” två gånger på raken ska denne svepa hela glaset eller flaskan, eftersom det är fusk!",
+    "spelare": "3+",
+    "material": "Inget material, valfri dryck",
+    "id": "11"
+     },
+     
+     {
+    "namn": "Godis mun mot mun",
+    "beskrivning":"Godis mun mot mun är en oralt intim lek med en söt mumsbit",
+    "regler": "1. Dela upp deltagarna i par, eller låt de göra det själv. 2. Knyt fast deras armarna bakom ryggen och låt dem stå ansikte mot ansikte. 3. Sätt på ögonbindeln och lägg en godis i en av partnernas mun. 4. Eftersom godiset har omslags papper så ska de tillsammans ta av det. När godis pappret är borta ska de helt enkelt äta upp den. 5. Det paret som först äter upp godiset vinner ett pris eller så får de som förlorade ett straff. Straff kan till exempel vara att dricka en shot. Upprepa leken från början – ju mer deltagarna dricker, desto mer kan hända",
+    "spelare": "4+",
+    "material": "Godis med omslagspapper, ex snickers eller mariannegodis. En ögonbindel per person och valfri dryck",
+    "id": "12"
+    },
 
+    {
+    "namn": "Irländsk julafton",
+    "beskrivning":"Snurrar runt en käpp och ta sig tillbaka",
+    "regler": "Irländsk julafton, irländsk fylla, är en lek som går ut på att man står framåtböjd med pannan mot en käpp eller liknande föremål och snurrar ett visst antal varm innan man skall ta sig runt en bana. Straffklunkar för varje varv misslyckat varv. Om en deltagare ska snurra tio varv men enbart klarar fyra varv innan han/hon ramlar måste denna dricka 6 straffklunkar. Svep så mycket alkohol så snabbt som möjligt precis innan start.",
+    "spelare": "2+ eller 2 lag",
+    "material": "Käpp och valfri dryck",
+    "id": "13"
+    },
 
-   
+    {
+    "namn": "Jokern",
+    "beskrivning":"Jokern är en svår men spännande lek",
+    "regler": "1. En kortlek med en joker i botten balanseras på toppen av en glasflaska. 2. Deltagarna blåser i turordning bort ett valfritt antal kort. 3. Den som blåser bort sista kortet (jokern) från flaskan får dricka en förutbestämd mängd alkohol (ex. en shot).",
+    "spelare": "2+",
+    "material": "1 glasflaska, typ 33 cl:s drickflaska, kortlek och valfri dryck",
+    "id": "14"
+    },
+
+    {
+    "namn": "Kortsuget",
+    "beskrivning":"Kortsuget är ett dryckesspel med hångelvarning",
+    "regler": "1. Ta valfritt kort från en vanlig kortlek. 2. Placera deltagarna runt i en ring med varannan tjej och kille. 3. Förbered alla deltagare med varsin cider/öl. 4. En valfri person utses att börja leken. 5. Hon/han ska placera kortet på munnen och suga fast det. Utan att tappa kortet ska det flyttas över till nästa deltagare som tar emot det med munnen genom att suga fast det. 6. De paret som tappar kortet ska dricka två klunkar cider/öl.",
+    "spelare": "3+",
+    "material": "Kortlek och valfri dryck",
+    "id": "15"
+    },
+
+    {
+    "namn": "Kungens blod",
+    "beskrivning":"Spelet innehåller en ordentlig tvist vilket gör att en spelare alltid mer berusad än de andra",
+    "regler": "1. Den första spelare tar ett kort. 2. Om spelaren får: ett rött kort händer inget, (undantag Kung, se nedan). Ett svart kort måste denna dricka motsvarande två fingrar av dryck ur sitt glas, (undantag Kung, se nedan). Om spelaren får en kung, får denna hälla valfri mängd alkohol ur sitt glas i den stora bägaren. Detta upprepas för de två efterföljande kungarna. Den som sedan får den sista kungen måste svepa innehållet i sitt eget glas och bägaren",
+    "spelare": "3-8",
+    "material": "Kortlek, en stor bägare, ett glas (2-2,5 dl) per spelare och valfri dryck",
+    "id": "16"
+    },
+
+    {
+    "namn": "Mexico",
+    "beskrivning":"Mexico är ett dryckesspel där spelarna använder sig av två tärningar",
+    "regler": "Tanken med spelet är att man, med dolda tärningskast (exempelvis genom att kupa händerna över tärningarna), hela tiden ska slå högre än spelaren innan, alternativt syna en eventuell bluff. Den äldste spelaren (spelare 1) börjar kasta och påstår då att han fått 43. Spelaren efter (Spelare 2) väljer då om hon vill syna eller slå. Väljer hon att syna måste den som kastat visa upp huruvida han slagit 43 eller ej, väljer hon att slå skall hon slå högre än, eller exakt, 43 (fortfarande dolt). Om spelare 2 väljer att syna och spelare 1 har bluffat så får spelare 1 dricka ett, för kvällen lämpligt antal straffklunkar. Om spelare 1 däremot talar sanning får spelare 2, som synat fel, dricka motsvarande antal. Ordningsföljd på tärningsslagen: 2+1 – Mexico (högst), 1+1 – Canada, 6+6 – Sextiosex, 5+5 – Femtiofem, 4+4 – Fyrtiofyra, 3+3 – Trettiotre, 2+2 – Tjugotvå, 6+5 – Sextiofem, 6+4 – Sextiofyra, 6+3 – Sextiotre, 6+2 – Sextiotvå, 6+1 – Sextioett, 5+4 – Femtiofyra, 5+3 – Femtiotre, 5+2 – Femtiotvå, 5+1 – Femtioett, 4+3 – Fyrtiotre, 4+2 – Fyrtiotvå, 4+1 – Fyrtioett, 3+2 – Trettiotvå, 3+1 – Trettioett (lägst)",
+    "spelare": "2+",
+    "material": "2 tärningar och valfri dryck",
+    "id": "17"
+    }
 ]
