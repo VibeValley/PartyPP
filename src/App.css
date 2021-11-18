@@ -92,6 +92,35 @@ a {
 
 /*Detalj sida css*/
 
+#spelinfo {
+  margin: 2vw;
+}
+
+#speltitel {
+  text-align: center;
+  font-size: 8vw;
+  text-shadow: 2px 2px 5px black;
+  margin-top: 9vw;
+}
+
+#speldetalj {
+  display: inline-block;
+  background-color:aliceblue;
+  border-top-left-radius: 6vw;
+  border-top-right-radius: 6vw;
+  font-size: 5vw;
+}
+
+#detaljtitel {
+  font-size: 6vw;
+  margin: 5vw;
+}
+
+#speltext {
+  margin: 4vw;
+  margin-left: 9vw;
+}
+
 .HeadPic {
   margin-top: 2vw;
   margin-left: 2vw;
