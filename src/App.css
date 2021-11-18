@@ -84,7 +84,7 @@ html {
 
 .SidaHeader {
   background: linear-gradient(181.54deg, rgba(212, 71, 181, 0.68) 28.85%, rgba(215, 110, 51, 0.8) 81.6%);
-
+  border: 0px;
   font-size: 15vw;
   text-align: center;
   line-height: 30vw;
