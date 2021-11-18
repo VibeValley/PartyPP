@@ -2,10 +2,14 @@
 :root {
   --BlåFärg: #a6a2ef;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
 
 html {
   height: calc(100%);
-  background: #f5eee0;
+  background-image: linear-gradient(to bottom right, rgb(255, 0, 242), rgb(134, 0, 78));
   box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
 }
 
@@ -21,28 +25,34 @@ html {
 }
 
 .First_page_buttontext {
+  display: inline-block;
   position: relative;
-  height: 25vw;
   margin: 0 auto;
   text-align: center;
+  vertical-align: middle;
   font-family: Verdana, sans-serif;
-  font-size: 9vw;
-  line-height: 25vw;
+  line-height: normal;
+  font-size: 8vw;
   color: white;
 }
 
 .Button_div {
   position: relative;
+  
   height: 50vw;
   margin: 0 auto;
 }
 
 .Button_first_page {
   width: 80vw;
-  height: 25vw;
+  height: 20vw;
+  border-radius: 30px 30px 30px 30px;
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
+  align-content: center;
   background: var(--BlåFärg);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5))
 }
 .Button_first_page:active{
     background: #000000;
@@ -119,6 +129,7 @@ a {
   line-height: 7vw;
   margin-bottom: 2vw;
 }
+
 .detaljDiv{
   overflow: scroll;
 }
@@ -159,5 +170,3 @@ a {
   height: 50px;
   width: 40px;
 }
-
-
