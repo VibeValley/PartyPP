@@ -9,7 +9,7 @@
 
 html {
   height: calc(100%);
-  background-image: linear-gradient(to bottom right, rgb(255, 0, 242), rgb(134, 0, 78));
+  background-image: url("Bilder/bakgrund-startsida.png");
   box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
 }
 
@@ -55,10 +55,9 @@ html {
   border: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5))
 }
-.Button_first_page:active{
-    background: #000000;
+.Button_first_page:active {
+  background: #000000;
 }
-
 
 #Pick_me_button {
   position: absolute;
@@ -107,6 +106,8 @@ a {
 
 .favBox {
   float: right;
+  height: 5vw;
+  width: 5vw;
 }
 
 /*Detalj sida css*/
@@ -130,8 +131,7 @@ a {
   line-height: 7vw;
   margin-bottom: 2vw;
 }
-
-.detaljDiv{
+.detaljDiv {
   overflow: scroll;
 }
 
