@@ -11,18 +11,29 @@ function AllaSpel() {
 
   const [query, setQuery] = useState("");
 
-  const fuse = new Fuse(games, {
-    keys: ["namn", "beskrivning", "regler", "spelare"],
-    includeScore: true,
-  });
+  const fuse = new Fuse(games, { 
+    keys: [
+      'namn',
+      'beskrivning',
+      'regler',
+      'spelare',
+      'material'
+    ],
+    includeScore : true
+  })
+
 
   const results = fuse.search(query);
-  const gamesResult = results.map((results) => results.item);
+  const gamesResult = results.map(results => results.item);
+  const emptyList = results.length > 1;
 
   function handleOnSearch({ currentTarget = {} }) {
     const { value } = currentTarget;
     setQuery(value);
   }
+
+  console.log();
+
 
   return (
     <div className="App">
@@ -33,23 +44,17 @@ function AllaSpel() {
 
       <form>
         <label>
-          Search:
-          <input
-            type="text"
-            name="name"
-            value={query}
-            onChange={handleOnSearch}
-          />
-        </label>
-        <input type="submit" value="Search" />
+          <input type="text" name="name" value = {query} onChange={handleOnSearch} />
+       </label>
+          <input type="submit" value="Search" />
       </form>
 
       <div className="ListaDiv">
         {/*Det som skriver ut hela listan med spel, 
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
-        {gamesResult.map((allaSpel) => (
+        {emptyList ? gamesResult.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />
-        ))}
+        )) : <p>test</p>}
       </div>
       <Lowerbar></Lowerbar>
     </div>
