@@ -21,7 +21,7 @@ const Lowerbar = ({}) => {
 
         <Link to="/Favoriter">
           <button className="knappar_bot" type="button">
-            <img src={logo2} alt="AllaSpel" className="FPic"></img>
+            <img src={logo2} alt="AllaSpel" id="FPicFav"></img>
             <p className="knappar_text">Favoriter</p>
           </button>
         </Link>
