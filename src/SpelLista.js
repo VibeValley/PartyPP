@@ -9,11 +9,11 @@ const addFavorit = (id, name) => {
 };
 
 const changeImage = (id, name) => {
-  if (document.getElementById("FPicFav2").src == { emptyStar }) {
-    document.getElementById("FPicFav2").src = { filledStar };
+  if (document.getElementById(id).src == { emptyStar }) {
+    document.getElementById(id).src = { filledStar };
     window.localStorage.setItem(id, JSON.stringify(name));
   } else {
-    document.getElementById("FPicFav2").src = { emptyStar };
+    document.getElementById(id).src = { emptyStar };
     localStorage.removeItem(id);
   }
 };
@@ -28,7 +28,7 @@ const SpelLista = ({ spel }) => {
           src={emptyStar}
           alt="AllaSpel"
           className="favBox"
-          id="FPicFav2"
+          id={spel.id}
         ></img>
       </div>
       <Link to={"/AllaSpel/" + spel.id}>
