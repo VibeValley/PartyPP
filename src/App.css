@@ -277,3 +277,12 @@ a {
 .regler{
   height: 90vw;
 }
+
+.isaksearch{
+  height: 50px;
+  width: 100%;
+  opacity: 0.5;
+}
+.isaksearch ::placeholder{
+  
+}
