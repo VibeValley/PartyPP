@@ -22,7 +22,7 @@ function Detaljsida() {
           <p className="TillbakaText">Alla spel</p>
         </a>
         <header className="SidaHeader" id="DetaljNamn">
-         <p id = "spelinfo">Spelinfo</p>
+         <p id = "spelinfo">Spel info</p>
         </header>
       </div>
       <div className="detaljDiv">
