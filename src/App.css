@@ -99,7 +99,6 @@ html {
   line-height: 30vw;
 }
 
-
 .Alla_spel_listans_text {
   width: 95vw;
   height: 27vw;
@@ -114,19 +113,11 @@ html {
   margin-top: 0vw;
 
   background: rgba(131, 80, 203, 0.8);
-  
-}
-
-div.Alla_spel_titel {
-
-}
-div.Alla_spel_Beskrivning{
-
 }
 
 .ListaTitel {
-  color: #031D44;
-  
+  color: #031d44;
+
   text-align: center;
   margin-bottom: 0vw;
   color: #031d44;
@@ -147,10 +138,11 @@ a {
 
 .favBox {
   float: right;
-  margin-top: 2.5vw;
-  margin-right: 2.5vw;
-  height: 5vw;
-  width: 5vw;
+}
+
+#FPicFav2 {
+  height: 7vw;
+  width: 7vw;
 }
 
 /*Detalj sida css*/
@@ -216,25 +208,27 @@ a {
   width: 40px;
 }
 
+#FPicFav {
+  height: 50px;
+  width: 50px;
+}
 
 /*Detaljer*/
 
-#detalj_ID{
+#detalj_ID {
   color: white;
   margin-left: 3vw;
   width: calc(100%);
-  
 }
 
-.spelare{
-  height: 10vw;
-
-}
-
-.material{
+.spelare {
   height: 10vw;
 }
 
-.regler{
+.material {
+  height: 10vw;
+}
+
+.regler {
   height: 90vw;
 }
