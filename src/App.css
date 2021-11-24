@@ -101,8 +101,6 @@ html {
   line-height: 30vw;
 }
 
-.ListaDiv {
-}
 
 .Alla_spel_listans_text {
   width: 95vw;
@@ -120,12 +118,23 @@ html {
   );
   margin-left: 2vw;
   margin-right: 5vw;
-  color: white;
-  font-family: myFirstFont;
-  margin-bottom: 5vw;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+
+  background: rgba(131, 80, 203, 0.8);
+  
+}
+
+div.Alla_spel_titel {
+
+}
+div.Alla_spel_Beskrivning{
+
 }
 
 .ListaTitel {
+  color: #031D44;
+  
   text-align: center;
   margin-bottom: 0vw;
   color: #031d44;
@@ -244,4 +253,27 @@ a {
   margin-top: 4vw;
   height: 50px;
   width: 40px;
+}
+
+
+/*Detaljer*/
+
+#detalj_ID{
+  color: white;
+  margin-left: 3vw;
+  width: calc(100%);
+  
+}
+
+.spelare{
+  height: 10vw;
+
+}
+
+.material{
+  height: 10vw;
+}
+
+.regler{
+  height: 90vw;
 }

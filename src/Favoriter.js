@@ -13,8 +13,8 @@ const getGameByID = (id) => {
 function Favoriter() {
   //Går igenom allt i localStorage
   const favoGames = [];
-  for (var i = 0; i < localStorage.length; i++) {
-    favoGames.push(getGameByID(localStorage.key(i)));
+  for(var i =0; i < localStorage.length; i++){
+    favoGames.push(getGameByID(localStorage.key(i)))
   }
 
   return (
@@ -22,13 +22,15 @@ function Favoriter() {
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Favoriter</header>
+      
 
-        <div className="ListaDiv">
-          {/*Här skriver vi ut listan med favoritspel, som finns i window.localStorage*/}
-          {favoGames.map((allaSpel) => (
-            <SpelLista key={allaSpel.id} spel={allaSpel} />
-          ))}
-        </div>
+      <div className="ListaDiv">
+        {/*Här skriver vi ut listan med favoritspel, som finns i window.localStorage*/}
+        {favoGames.map((allaSpel) => (
+          <SpelLista key={allaSpel.id} spel={allaSpel} />
+        ))}
+
+      </div>
       </div>
       <Lowerbar></Lowerbar>
     </div>
