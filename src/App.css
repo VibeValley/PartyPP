@@ -15,6 +15,7 @@ html {
 .App {
   height: calc(100%);
   background-image: url("Bilder/bakgrundVanlig.png");
+  white-space: pre-line;
 }
 
 /*Första sidans css*/
@@ -220,7 +221,6 @@ a {
   color: white;
   margin-left: 3vw;
   width: calc(100%);
-  
 }
 
 .spelare{
@@ -235,3 +235,5 @@ a {
 .regler{
   height: 90vw;
 }
+
+

@@ -12,7 +12,10 @@ function Detaljsida() {
   let { id } = useParams();
   console.log(id);
 
+
   const ValdaSpel = getGameByID(id);
+
+ // const ValdaSpel = JSON.parse(getGameByID(id));
 
   return (
     <div className="App">
