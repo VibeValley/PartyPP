@@ -22,14 +22,17 @@ function Detaljsida() {
           <p className="TillbakaText">Alla spel</p>
         </a>
         <header className="SidaHeader" id="DetaljNamn">
-          {ValdaSpel.namn}
+         <p id = "spelinfo">Spel info</p>
         </header>
-
-        <div className="detaljDiv">
-          <p>Antal spelare: {ValdaSpel.spelare}</p>
-          <p>Material: {ValdaSpel.material}</p>
-          <p>Relger: {ValdaSpel.regler}</p>
+      </div>
+      <div className="detaljDiv">
+        <div id = "speltitel">  <p> {ValdaSpel.namn} </p> 
         </div>
+        <div id="speldetalj">  
+      <p id="detaljtitel">Antal spelare:</p> <p id="speltext">{ValdaSpel.spelare} </p>
+      <p id="detaljtitel">Material:</p> <p id="speltext">{ValdaSpel.material} </p>
+      <p id="detaljtitel">Relger:</p> <p id="speltext">{ValdaSpel.regler} </p>
+      </div>
       </div>
       <Lowerbar />
     </div>

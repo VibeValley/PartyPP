@@ -84,6 +84,8 @@ html {
 
 /*Alla spel css*/
 
+
+
 .HeaderDiv {
   width: 100%;
   height: 193.47vw;
@@ -99,8 +101,6 @@ html {
   line-height: 30vw;
 }
 
-.ListaDiv {
-}
 
 .Alla_spel_listans_text {
   width: 95vw;
@@ -118,12 +118,23 @@ html {
   );
   margin-left: 2vw;
   margin-right: 5vw;
-  color: white;
-  font-family: myFirstFont;
-  margin-bottom: 5vw;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+
+  background: rgba(131, 80, 203, 0.8);
+  
+}
+
+div.Alla_spel_titel {
+
+}
+div.Alla_spel_Beskrivning{
+
 }
 
 .ListaTitel {
+  color: #031D44;
+  
   text-align: center;
   margin-bottom: 0vw;
   color: #031d44;
@@ -151,6 +162,35 @@ a {
 }
 
 /*Detalj sida css*/
+
+#spelinfo {
+  margin: 2vw;
+}
+
+#speltitel {
+  text-align: center;
+  font-size: 8.5vw;
+  text-shadow: 1.5px 3px 7px black;
+  margin-top: 9vw;
+}
+
+#speldetalj {
+  display: inline-block;
+  background-color:rgba(250, 208, 208, 0.6);
+  border-top-left-radius: 6vw;
+  border-top-right-radius: 6vw;
+  font-size: 5vw;
+}
+
+#detaljtitel {
+  font-size: 6vw;
+  margin: 5vw;
+}
+
+#speltext {
+  margin: 4vw;
+  margin-left: 9vw;
+}
 
 .HeadPic {
   margin-top: 2vw;
@@ -199,6 +239,8 @@ a {
   border: none;
 }
 
+
+
 .knappar_text {
   font-family: myFirstFont;
   font-size: 3vw;
@@ -211,4 +253,27 @@ a {
   margin-top: 4vw;
   height: 50px;
   width: 40px;
+}
+
+
+/*Detaljer*/
+
+#detalj_ID{
+  color: white;
+  margin-left: 3vw;
+  width: calc(100%);
+  
+}
+
+.spelare{
+  height: 10vw;
+
+}
+
+.material{
+  height: 10vw;
+}
+
+.regler{
+  height: 90vw;
 }
