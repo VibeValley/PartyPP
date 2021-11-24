@@ -6,7 +6,9 @@ import logo4 from "./Bilder/TärningSymbol.png";
 import logo5 from "./Bilder/LäggTillSymbol.png";
 import { Link } from "react-router-dom";
 
-const Lowerbar = ({ active }) => {
+
+
+const Lowerbar = ({}) => {
   return (
     <div>
       <nav className="Foot">

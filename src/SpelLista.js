@@ -2,6 +2,7 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+
 const addFavorit = (id, name) => {
   if(localStorage.getItem(id))
     localStorage.removeItem(id);
