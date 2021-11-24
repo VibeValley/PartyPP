@@ -116,9 +116,18 @@ html {
   );
   margin-left: 2vw;
   margin-right: 5vw;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+
+  background: rgba(131, 80, 203, 0.8);
   
-  font-family: myFirstFont;
-  margin-bottom: 5vw;
+}
+
+div.Alla_spel_titel {
+
+}
+div.Alla_spel_Beskrivning{
+
 }
 
 .ListaTitel {
