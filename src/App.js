@@ -12,7 +12,6 @@ import Pickme from "./Pickme";
 import LaggTill from "./LaggTill";
 import Favoriter from "./Favoriter";
 
-
 //Första sidans knapp komponent som tar in en parameter som är det som kommer stå i knappen
 const FirstPageButton = ({ ButtonText }) => {
   return (
@@ -34,12 +33,11 @@ function App() {
           <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
           <Route path="/AllaSpel/" element={<AllaSpel />} />
           <Route path="/AllaSpel/:id" element={<Detaljsida />} />
-          <Route path="/Sok/" element={<Sok/>} />
+          <Route path="/Sok/" element={<Sok />} />
           <Route path="/Valj_at_mig/" element={<Pickme />} />
           <Route path="/Lagg_till/" element={<LaggTill />} />
-          <Route path="/Favoriter/" element={<Favoriter/>} />
+          <Route path="/Favoriter/" element={<Favoriter />} />
           <Route path="/" element={<MainPage />} />
-
         </Switch>
       </Router>
     </div>
@@ -49,7 +47,7 @@ function App() {
 //Huvud Sida med två knapp komponenter
 function MainPage() {
   return (
-    <div className="App">
+    <div>
       <h2 className="First_page_title">Party Portalen</h2>
       {/*Linken till den andra sidan ligger runt knappen
       detta gör att man kan klicka på den*/}

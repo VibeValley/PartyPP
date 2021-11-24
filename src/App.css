@@ -10,7 +10,11 @@
 html {
   height: calc(100%);
   background-image: url("Bilder/bakgrund-startsida.png");
-  box-shadow: inset 0px -110px 90px rgba(0, 0, 0, 0.25);
+}
+
+.App {
+  height: calc(100%);
+  background-image: url("Bilder/bakgrundVanlig.png");
 }
 
 /*Första sidans css*/
@@ -83,19 +87,14 @@ html {
 
 
 .HeaderDiv {
-  position: sticky;
-  top: 0;
   width: 100%;
-  height: 30vw;
-  background: linear-gradient(
-    181.54deg,
-    rgba(212, 71, 181, 0.68) 28.85%,
-    rgba(215, 110, 51, 0.8) 81.6%
-  );
+  height: 193.47vw;
+  border: 0px;
+  overflow: scroll;
 }
 
 .SidaHeader {
-  
+  font-family: myFirstFont;
   border: 0px;
   font-size: 15vw;
   text-align: center;
@@ -103,8 +102,6 @@ html {
 }
 
 .ListaDiv {
-  height: 160vw;
-  overflow: scroll;
 }
 
 .Alla_spel_listans_text {
@@ -113,6 +110,7 @@ html {
   border-radius: 30px 30px 30px 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
   text-align: center;
+
   background-image: linear-gradient(
     180deg,
     rgba(213, 71, 181, 0) 0%,
@@ -122,17 +120,24 @@ html {
   );
   margin-left: 2vw;
   margin-right: 5vw;
+  color: white;
+  font-family: myFirstFont;
+  margin-bottom: 5vw;
 }
 
 .ListaTitel {
   text-align: center;
   margin-bottom: 0vw;
+  color: #031d44;
+  font-family: myFirstFont;
 }
 
 .ListaBesk {
   margin-top: 2vw;
   margin-left: 2vw;
   margin-right: 2vw;
+  color: rgb(192, 192, 192);
+  font-family: myFirstFont;
 }
 a {
   text-decoration: none;
