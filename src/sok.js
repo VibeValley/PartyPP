@@ -40,7 +40,7 @@ function AllaSpel() {
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Sök</header>
-      </div>
+      
 
       <form>
         <label>
@@ -55,6 +55,7 @@ function AllaSpel() {
         {emptyList ? gamesResult.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />
         )) : <p>test</p>}
+      </div>
       </div>
       <Lowerbar></Lowerbar>
     </div>
