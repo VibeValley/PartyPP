@@ -138,6 +138,8 @@ a {
 
 .favBox {
   float: right;
+  height: 7vw;
+  width: 7vw;
 }
 
 #FPicFav2 {
