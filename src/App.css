@@ -15,6 +15,7 @@ html {
 .App {
   height: calc(100%);
   background-image: url("Bilder/bakgrundVanlig.png");
+  white-space: pre-line;
 }
 
 /*Första sidans css*/
@@ -91,8 +92,6 @@ html {
 }
 /*Alla spel css*/
 
-
-
 .HeaderDiv {
   width: 100%;
   height: 193.47vw;
@@ -106,6 +105,7 @@ html {
   font-size: 15vw;
   text-align: center;
   line-height: 30vw;
+  text-shadow: 1px 3px 6px #cacaca;
 }
 
 .Alla_spel_listans_text {
@@ -114,6 +114,7 @@ html {
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
   text-align: center;
+  font-family: myFirstFont;
 
   background-color: #1c1f33;
   margin-left: 2vw;
@@ -160,31 +161,40 @@ a {
 
 #spelinfo {
   margin: 2vw;
+  font-family: myFirstFont;
+  text-shadow: 1px 3px 6px #cacaca;
 }
 
 #speltitel {
   text-align: center;
   font-size: 8.5vw;
-  text-shadow: 1.5px 3px 7px black;
   margin-top: 9vw;
+  font-family: myFirstFont;
+  text-shadow: 1px 3px 6px #cacaca;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 #speldetalj {
   display: inline-block;
-  background-color:rgba(250, 208, 208, 0.6);
+  background-color: rgba(250, 208, 208, 0.6);
   border-top-left-radius: 6vw;
   border-top-right-radius: 6vw;
   font-size: 5vw;
+  font-family: myFirstFont;
 }
 
 #detaljtitel {
   font-size: 6vw;
   margin: 5vw;
+  font-family: myFirstFont;
 }
 
 #speltext {
   margin: 4vw;
   margin-left: 9vw;
+  font-family: myFirstFont;
+  color: rgba(61, 61, 75, 0.801);
 }
 
 .HeadPic {
@@ -196,6 +206,7 @@ a {
 }
 #DetaljNamn {
   line-height: 15vw;
+  font-family: myFirstFont;
 }
 
 .TillbakaText {
@@ -232,11 +243,11 @@ a {
   background: linear-gradient(180deg, #ffb800 -37.5%, #f6e441 50%);
   padding: 0;
   border: none;
+  z-index: -1;
 }
 
-
-
 .knappar_text {
+  position: relative;
   font-family: myFirstFont;
   font-size: 3vw;
   text-align: center;
@@ -245,9 +256,18 @@ a {
 }
 
 .FPic {
+  position: relative;
   margin-top: 4vw;
   height: 50px;
   width: 40px;
+  z-index: -1;
+}
+
+#active {
+  background-color: black;
+  border: 2vw;
+  border-radius: 2vw;
+  z-index: 0;
 }
 
 #FPicFav {
@@ -275,11 +295,10 @@ a {
   height: 90vw;
 }
 
-.isaksearch{
+.isaksearch {
   height: 50px;
   width: 100%;
   opacity: 0.5;
 }
-.isaksearch ::placeholder{
-  
+.isaksearch ::placeholder {
 }
