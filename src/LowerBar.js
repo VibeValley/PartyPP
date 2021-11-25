@@ -1,6 +1,6 @@
 import "./App.css";
 import logo1 from "./Bilder/Alla_spel.png";
-import logo2 from "./Bilder/FavvoSymbol.png";
+import logo2 from "./Bilder/FavvoSymbolBar.png";
 import logo3 from "./Bilder/Sök.png";
 import logo4 from "./Bilder/TärningSymbol.png";
 import logo5 from "./Bilder/LäggTillSymbol.png";
