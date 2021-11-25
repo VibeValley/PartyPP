@@ -7,7 +7,6 @@ import React, { useState } from "react";
 
 //Alla spel sidan
 function AllaSpel() {
-  const Lista_med_spel = games;
 
   const [query, setQuery] = useState("");
 
@@ -24,8 +23,7 @@ function AllaSpel() {
 
 
   const results = fuse.search(query);
-  const gamesResult = results.map(results => results.item);
-  const emptyList = results.length > 1;
+  const gamesResult = query === "" ? games :results.map(results => results.item);
 
   function handleOnSearch({ currentTarget = {} }) {
     const { value } = currentTarget;
@@ -40,21 +38,21 @@ function AllaSpel() {
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Sök</header>
-      </div>
+      
 
       <form>
         <label>
-          <input type="text" name="name" value = {query} onChange={handleOnSearch} />
+          <input placeholder = "sök..."className= "isaksearch"type="text" name="name" value = {query} onChange={handleOnSearch} />
        </label>
-          <input type="submit" value="Search" />
       </form>
 
       <div className="ListaDiv">
         {/*Det som skriver ut hela listan med spel, 
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
-        {emptyList ? gamesResult.map((allaSpel) => (
+        {gamesResult.length ? gamesResult.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />
-        )) : <p>test</p>}
+        )) : <p>Vi kunde ej hitta det du sökte</p>}
+      </div>
       </div>
       <Lowerbar></Lowerbar>
     </div>

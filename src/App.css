@@ -91,6 +91,8 @@ html {
 }
 /*Alla spel css*/
 
+
+
 .HeaderDiv {
   width: 100%;
   height: 193.47vw;
@@ -156,6 +158,35 @@ a {
 
 /*Detalj sida css*/
 
+#spelinfo {
+  margin: 2vw;
+}
+
+#speltitel {
+  text-align: center;
+  font-size: 8.5vw;
+  text-shadow: 1.5px 3px 7px black;
+  margin-top: 9vw;
+}
+
+#speldetalj {
+  display: inline-block;
+  background-color:rgba(250, 208, 208, 0.6);
+  border-top-left-radius: 6vw;
+  border-top-right-radius: 6vw;
+  font-size: 5vw;
+}
+
+#detaljtitel {
+  font-size: 6vw;
+  margin: 5vw;
+}
+
+#speltext {
+  margin: 4vw;
+  margin-left: 9vw;
+}
+
 .HeadPic {
   margin-top: 2vw;
   margin-left: 2vw;
@@ -203,6 +234,8 @@ a {
   border: none;
 }
 
+
+
 .knappar_text {
   font-family: myFirstFont;
   font-size: 3vw;
@@ -240,4 +273,13 @@ a {
 
 .regler {
   height: 90vw;
+}
+
+.isaksearch{
+  height: 50px;
+  width: 100%;
+  opacity: 0.5;
+}
+.isaksearch ::placeholder{
+  
 }
