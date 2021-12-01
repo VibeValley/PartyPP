@@ -1,6 +1,6 @@
 import "./App.css";
 import logo1 from "./Bilder/Alla_spel.png";
-import logo2 from "./Bilder/FavvoSymbol.png";
+import logo2 from "./Bilder/FavvoSymbolBar.png";
 import logo3 from "./Bilder/Sök.png";
 import logo4 from "./Bilder/TärningSymbol.png";
 import logo5 from "./Bilder/LäggTillSymbol.png";
@@ -13,15 +13,15 @@ const Lowerbar = ({}) => {
     <div>
       <nav className="Foot">
         <Link to="/AllaSpel/">
-          <button className="knappar_bot" type="button">
+          <button id="active"  className="knappar_bot" type="button">
             <img src={logo1} alt="AllaSpel" className="FPic"></img>
-            <p className="knappar_text">Alla Spel</p>
+            <p  className="knappar_text">Alla Spel</p>
           </button>
         </Link>
 
         <Link to="/Favoriter">
           <button className="knappar_bot" type="button">
-            <img src={logo2} alt="AllaSpel" className="FPic"></img>
+            <img src={logo2} alt="AllaSpel" id="FPicFav"></img>
             <p className="knappar_text">Favoriter</p>
           </button>
         </Link>
