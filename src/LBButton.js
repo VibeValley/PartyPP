@@ -11,10 +11,12 @@ let tempColor = SelectedID === buttonID ? '#ffd005' : 'linear-gradient(180deg, #
 
 return(
         <Link to={linkPath}>
+            
           <button style={{ background: tempColor }} id={buttonID}  className="knappar_bot" type="button">
             <img src={img} alt="AllaSpel" className="FPic"></img>
             <p  className="knappar_text">{text}</p>
           </button>
+          
         </Link>
 );
 

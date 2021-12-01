@@ -45,7 +45,7 @@ function AllaSpel() {
         )) : <p className = "felsok">Vi kunde ej hitta det du sökte</p>}
       </div>
       </div>
-      <Lowerbar />
+      <Lowerbar defaultSelected="SökID"/>
     </div>
   );
 }
