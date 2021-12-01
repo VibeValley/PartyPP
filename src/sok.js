@@ -54,6 +54,7 @@ function AllaSpel() {
         )) : <p>Vi kunde ej hitta det du sökte</p>}
       </div>
       </div>
+      </div>
       <Lowerbar></Lowerbar>
     </div>
   );
