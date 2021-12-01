@@ -127,7 +127,9 @@ html {
 
 .ListaTitel {
   color: #031d44;
-
+  width: 100vw;
+  margin-left: 9vw;
+  position: relative;
   text-align: center;
   margin-bottom: 0vw;
   color: #031d44;
@@ -148,6 +150,8 @@ a {
 
 .favBox {
   float: right;
+  margin-right: 2vw;
+  margin-top: 2vw;
   height: 7vw;
   width: 7vw;
 }
