@@ -10,8 +10,8 @@ const getGameByID = (id) => {
   };
 
 function Pick() {
-    let randomNumber = Math.floor(Math.random() * (Object.keys(games).length + 1)); //Get a radnom number
-    console.log("randomNumber:")
+    let randomNumber = Math.floor(Math.random() * (Object.keys(games).length)) + 1; //Get a radnom number from 1 to end of games
+
     console.log(randomNumber);
     let id = "";
     if (randomNumber < 10){
@@ -25,23 +25,24 @@ function Pick() {
     const ValdaSpel = getGameByID(id);
   
     return (
-      <div className="">
-        <div className="HeaderDiv">
-          <a href="/AllaSpel">
-            <img src={logo} alt="tillbaka" className="HeadPic"></img>
-            <p className="TillbakaText">Alla spel</p>
-          </a>
-          <header className="SidaHeader" id="DetaljNamn">
-            {ValdaSpel.namn}
-          </header>
-        </div>
-        <div className="detaljDiv">
-        <p>Antal spelare: {ValdaSpel.spelare}</p>
-        <p>Material: {ValdaSpel.material}</p>
-        <p>Relger: {ValdaSpel.regler}</p>
-        </div>
-        <Lowerbar />
+    <div className="App">
+      <div className="HeaderDiv">
+
+        <header className="SidaHeader" id="DetaljNamn">
+          {ValdaSpel.namn}
+        </header>
+      <a href="/valj_at_mig">
+          <p>Slumpa igen!</p>
+      </a>
+      <div className="detaljDiv">
+      <p className="spelare" id="detalj_ID">Antal spelare: {ValdaSpel.spelare}</p>
+      <p className="material" id="detalj_ID">Material: {ValdaSpel.material}</p>
+      <p className="regler" id="detalj_ID">Relger: {ValdaSpel.regler}</p>
       </div>
+
+      </div>
+      <Lowerbar />
+    </div>
     );
   }
 
