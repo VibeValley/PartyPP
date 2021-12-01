@@ -5,47 +5,25 @@ import logo3 from "./Bilder/Sök.png";
 import logo4 from "./Bilder/TärningSymbol.png";
 import logo5 from "./Bilder/LäggTillSymbol.png";
 import { Link } from "react-router-dom";
+import LBButton from "./LBButton";
 
 
 
-const Lowerbar = ({}) => {
+const Lowerbar = ({defaultSelected}) => {
+  //const [selectedID, setSelectedID] = useState(defaultSelected);
+
   return (
     <div>
       <nav className="Foot">
-        <Link to="/AllaSpel/">
-          <button id="active"  className="knappar_bot" type="button">
-            <img src={logo1} alt="AllaSpel" className="FPic"></img>
-            <p  className="knappar_text">Alla Spel</p>
-          </button>
-        </Link>
+        <LBButton img={logo1} text="Alla Spel" buttonID="AllaSpelID" linkPath="/AllaSpel/" SelectedID={defaultSelected}/>
 
-        <Link to="/Favoriter">
-          <button className="knappar_bot" type="button">
-            <img src={logo2} alt="AllaSpel" id="FPicFav"></img>
-            <p className="knappar_text">Favoriter</p>
-          </button>
-        </Link>
+        <LBButton img={logo2} text="Favoriter" buttonID="FavvoID" linkPath="/Favoriter/" SelectedID={defaultSelected}/>
 
-        <Link to="/Sok">
-          <button className="knappar_bot" type="button">
-            <img src={logo3} alt="AllaSpel" className="FPic"></img>
-            <p className="knappar_text">Sök</p>
-          </button>
-        </Link>
+        <LBButton img={logo3} text="Sök" buttonID="SökID" linkPath="/Sok/" SelectedID={defaultSelected}/>
 
-        <Link to="/Valj_at_mig">
-          <button className="knappar_bot" type="button">
-            <img src={logo4} alt="AllaSpel" className="FPic"></img>
-            <p className="knappar_text">Välj åt mig</p>
-          </button>
-        </Link>
+        <LBButton img={logo4} text="Välj åt mig" buttonID="VäljID" linkPath="/Valj_at_mig/" SelectedID={defaultSelected}/>
 
-        <Link to="/Lagg_till">
-          <button className="knappar_bot" type="button">
-            <img src={logo5} alt="AllaSpel" className="FPic"></img>
-            <p className="knappar_text">Lägg till</p>
-          </button>
-        </Link>
+        <LBButton img={logo5} text="Lägg till" buttonID="LäggID" linkPath="/Lagg_till/" SelectedID={defaultSelected}/>
       </nav>
     </div>
   );

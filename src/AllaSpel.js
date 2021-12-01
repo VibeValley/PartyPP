@@ -6,16 +6,39 @@ import Fuse from "fuse.js";
 import React, { useState } from "react";
 
 
+function LBDark() {
+  
+
+}
+
+
 //Alla spel sidan
 function AllaSpel() {
   const Lista_med_spel = games;
+
+  var hej = window.location.href;
+  const urlHis = hej.split('/');
+  console.log(urlHis[3]);
+
+
+
+/*
+  const updatedAnswersCount = update(this.state.answersCount, {
+    [answer]: {$apply: (currentValue) => currentValue},
+  });
+
+  this.setState({
+    answersCount: updatedAnswersCount,
+    answer: answer
+  }); 
+ }
+*/
 
   return (
     <div className="App">
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
         <header className="SidaHeader">Alla Spel</header>
-
         <div className="ListaDiv">
           {/*Det som skriver ut hela listan med spel, 
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
@@ -25,7 +48,7 @@ function AllaSpel() {
         </div>
       </div>
 
-      <Lowerbar></Lowerbar>
+      <Lowerbar defaultSelected="AllaSpelID"></Lowerbar>
     </div>
   );
 }

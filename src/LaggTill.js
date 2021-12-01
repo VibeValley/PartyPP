@@ -104,7 +104,7 @@ function laggTill() {
         </div>
         <LäggtillKnapp />
       </div>
-      <Lowerbar />
+      <Lowerbar defaultSelected="LäggID"/>
     </div>
   );
 }

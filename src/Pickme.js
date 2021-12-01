@@ -46,7 +46,7 @@ function Pick() {
       </div>
       </div>
       </div>
-      <Lowerbar />
+      <Lowerbar defaultSelected="VäljID" />
     </div>
     );
   }
