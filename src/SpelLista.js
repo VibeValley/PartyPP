@@ -13,7 +13,7 @@ import filledStar from "./Bilder/FavvoSymbolFylld.png";
 //     localStorage.removeItem(id);
 //   }
 // };
-
+  
 const SpelLista = ({ spel }) => {
   //const [favorit, väljFavorit] = useState("");
   // Detta är hur den skriver ut hela listan
