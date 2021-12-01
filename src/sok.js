@@ -42,7 +42,7 @@ function AllaSpel() {
 
       <form>
         <label>
-          <input placeholder = "sök..."className= "isaksearch"type="text" name="name" value = {query} onChange={handleOnSearch} />
+          <input placeholder = "sök efter spel alternativt antal spelare..."className= "isaksearch"type="text" name="name" value = {query} onChange={handleOnSearch} />
        </label>
       </form>
 
@@ -51,7 +51,7 @@ function AllaSpel() {
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
         {gamesResult.length ? gamesResult.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />
-        )) : <p>Vi kunde ej hitta det du sökte</p>}
+        )) : <p className = "felsok">Vi kunde ej hitta det du sökte</p>}
       </div>
       </div>
       <Lowerbar></Lowerbar>

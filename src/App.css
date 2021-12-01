@@ -283,6 +283,7 @@ a {
   width: 100%;
   opacity: 0.5;
 }
-.isaksearch ::placeholder{
-  
+.felsok{
+  font-family: myFirstFont;
+  font-size: 20px;
 }
