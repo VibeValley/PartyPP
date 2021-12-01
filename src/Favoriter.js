@@ -32,7 +32,7 @@ function Favoriter() {
 
       </div>
       </div>
-      <Lowerbar></Lowerbar>
+      <Lowerbar defaultSelected="FavvoID"></Lowerbar>
     </div>
   );
 }

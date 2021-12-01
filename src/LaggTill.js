@@ -24,7 +24,7 @@ function laggTill() {
           <input type="textarea" id="fRegler"></input>
         </form>
       </div>
-      <Lowerbar />
+      <Lowerbar defaultSelected="LäggID"/>
     </div>
   );
 }

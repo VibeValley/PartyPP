@@ -56,7 +56,7 @@ function AllaSpel() {
           )}
         </div>
       </div>
-      <Lowerbar />
+      <Lowerbar defaultSelected="SökID"/>
     </div>
   );
 }

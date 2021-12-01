@@ -125,9 +125,11 @@ html {
   background: linear-gradient(360deg, #feef65 29.33%, #ffc700 240.67%);
 }
 
-.ListaTitel {
-  color: #031d44;
+.Alla_spel_listans_text:active{
+  background: var(--BlåFärg);
+}
 
+.ListaTitel {
   text-align: center;
   margin-bottom: 0vw;
   color: #031d44;
@@ -240,6 +242,7 @@ a {
   margin-right: 2%;
   top: 0%;
   margin-bottom: 20%;
+
   background: linear-gradient(180deg, #ffb800 -37.5%, #f6e441 50%);
   padding: 0;
   border: none;
