@@ -11,6 +11,7 @@ import Sok from "./sok";
 import Pickme from "./Pickme";
 import LaggTill from "./LaggTill";
 import Favoriter from "./Favoriter";
+import logo from "./Bilder/Logotyp.png";
 
 //Första sidans knapp komponent som tar in en parameter som är det som kommer stå i knappen
 const FirstPageButton = ({ ButtonText }) => {
@@ -48,7 +49,7 @@ function App() {
 function MainPage() {
   return (
     <div>
-      <h2 className="First_page_title">Party Portalen</h2>
+      <img src={logo} className="Logotyp" />
       {/*Linken till den andra sidan ligger runt knappen
       detta gör att man kan klicka på den*/}
       <Link to="/SlumpaSpel">
