@@ -23,10 +23,6 @@ function Pick() {
     console.log("id:")
     console.log(id);
     const ValdaSpel = getGameByID(id);
-
-    /*<a href="/valj_at_mig">
-    <p>Slumpa igen!</p>
-    </a>*/
   
     return (
       <div className="App">

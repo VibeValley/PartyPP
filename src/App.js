@@ -31,7 +31,7 @@ function App() {
       <Router>
         <Switch>
           {/*Routes till olika sidor där element är den nya js filen för sidan*/}
-          <Route path="/SlumpaSpel" element={<SlumpaSpel />} />
+          <Route path="/SlumpaSpel" element={<Pickme />} />
           <Route path="/AllaSpel/" element={<AllaSpel />} />
           <Route path="/AllaSpel/:id" element={<Detaljsida />} />
           <Route path="/Sok/" element={<Sok />} />
