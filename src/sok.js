@@ -3,7 +3,8 @@ import SpelLista from "./SpelLista.js";
 import games from "./games.json";
 import Lowerbar from "./LowerBar";
 import Fuse from "fuse.js";
-import React, { useState } from "react";
+import React, { useState } from "react"; 
+import soktitel from "./Bilder/söktext.png";
 
 //Alla spel sidan
 function AllaSpel() {
@@ -28,13 +29,12 @@ function AllaSpel() {
   return (
     <div className="App">
       {/*Det som står i rutan högst upp på sidan*/}
-      <div className="HeaderDiv">
-        <header className="SidaHeader">Sök</header>
+      <div className = "asticky"><img src={soktitel} className = "titelsok" ></img></div>
 
-        <form>
+        <form className = "asticky">
           <label>
             <input
-              placeholder="sök..."
+              placeholder="Sök efter ett spel eller antal spelare här..."
               className="isaksearch"
               type="text"
               name="name"
@@ -43,6 +43,9 @@ function AllaSpel() {
             />
           </label>
         </form>
+      <div className="HeaderDiv">
+        <header className="SidaHeader">
+        </header>
 
         <div className="ListaDiv">
           {/*Det som skriver ut hela listan med spel, 

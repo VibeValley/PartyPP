@@ -4,6 +4,7 @@ import games from "./games.json";
 import Lowerbar from "./LowerBar";
 import Fuse from "fuse.js";
 import React, { useState } from "react";
+import titelallaspel from "./Bilder/allaspeltext.png";
 
 
 //Alla spel sidan
@@ -12,10 +13,11 @@ function AllaSpel() {
 
   return (
     <div className="App">
+          <div><img src={titelallaspel} className = "titelallaspel" ></img></div>
       {/*Det som står i rutan högst upp på sidan*/}
       <div className="HeaderDiv">
-        <header className="SidaHeader">Alla Spel</header>
-
+        <header className="SidaHeader"></header>
+  
         <div className="ListaDiv">
           {/*Det som skriver ut hela listan med spel, 
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
