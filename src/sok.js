@@ -33,7 +33,7 @@ function AllaSpel() {
 
       <form>
         <label>
-          <input placeholder = "sök efter spel alternativt antal spelare..."className= "isaksearch"type="text" name="name" value = {query} onChange={handleOnSearch} />
+          <input placeholder = "sök efter spel..."className= "isaksearch"type="text" name="name" value = {query} onChange={handleOnSearch} />
        </label>
       </form>
 
