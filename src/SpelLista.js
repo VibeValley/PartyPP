@@ -10,9 +10,11 @@ const addFavorit = (id, name) => {
 };
 
 const changeImage = (id, name) => {
-  if (document.getElementById(id).src == { emptyStar }) {
-    document.getElementById(id).src = { filledStar };
+  if (document.getElementById(id).src.match(emptyStar)) {
+
+    //document.getElementById(id).src.(filledStar);
     window.localStorage.setItem(id, JSON.stringify(name));
+
   } else {
     document.getElementById(id).src = { emptyStar };
     localStorage.removeItem(id);

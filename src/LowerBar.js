@@ -13,7 +13,7 @@ const Lowerbar = ({}) => {
     <div>
       <nav className="Foot">
         <Link to="/AllaSpel/">
-          <button className="knappar_bot" type="button">
+          <button className="knappar_bot" id="AllaSpel" type="button">
             <img src={logo1} alt="AllaSpel" className="FPic"></img>
             <p className="knappar_text">Alla Spel</p>
           </button>
