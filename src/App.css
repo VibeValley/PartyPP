@@ -283,14 +283,28 @@ a {
 
 .knappar_bot {
   position: relative;
-  width: 18vw;
+  width: 20vw;
   height: 25vw;
   margin-left: 0%;
-  margin-right: 2%;
+  margin-right: 0%;
   top: 0%;
   margin-bottom: 20%;
+  background: linear-gradient(180deg#ffb800 -37.5%, #f6e441 50%);
+  padding: 0;
+  border: none;
+  z-index: -1;
+}
 
-  background: linear-gradient(180deg, #ffb800 -37.5%, #f6e441 50%);
+#LäggID{
+  position: relative;
+  float: right;
+  width: 20vw;
+  height: 25vw;
+  margin-left: 0%;
+  margin-right: 0%;
+  top: 0%;
+  margin-bottom: 20%;
+  background: linear-gradient(180deg#ffb800 -37.5%, #f6e441 50%);
   padding: 0;
   border: none;
   z-index: -1;
@@ -307,8 +321,9 @@ a {
 
 .FPic {
   position: relative;
-  margin-top: 4vw;
-  height: 50px;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  height: 45px;
   width: 40px;
   z-index: -1;
 }
@@ -375,28 +390,37 @@ label {
   border-radius: 5px;
   padding-left: 20px;
   font-family: myFirstFont;
+  color: white; 
 }
 
 .LäggtillForms {
   font-family: myFirstFont;
   box-sizing: border-box;
   border: 2px solid #ccc;
-  border-radius: 1vw;
+  border-radius: 2vw;
   background-color: #f8f8f8;
+  /*background-color: #884FC9;*/
   resize: none;
   margin-bottom: 4vw;
   margin-top: 2vw;
+  opacity: 0.5;
+}
+
+.LäggtillForms::placeholder{
+  color: white;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+
 }
 #fRegler {
   width: 90%;
   height: 30vw;
   padding: 1vw 2vw;
+
 }
 #fTitel {
   padding: 1vw 2vw;
