@@ -17,6 +17,12 @@ function Detaljsida() {
   return (
     <div className="App">
       <div className="HeaderDiv">
+        <div className="TillbakaDiv">
+          <a href="/AllaSpel">
+            <img src={logo} alt="tillbaka" className="HeadPic"></img>
+            <p className="TillbakaText">Alla spel</p>
+          </a>
+        </div>
         <header className="SidaHeader" id="DetaljNamn">
           <p id="spelinfo">Spel info</p>
         </header>

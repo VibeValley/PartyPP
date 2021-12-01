@@ -210,6 +210,7 @@ a {
 }
 
 .TillbakaText {
+  font-family: myFirstFont;
   font-size: 4vw;
   display: block;
   margin: 0;
@@ -217,6 +218,52 @@ a {
   line-height: 7vw;
   margin-bottom: 2vw;
 }
+
+.TillbakaDiv {
+  text-align: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 10%;
+  background: linear-gradient(
+    180deg,
+    #f7e441 13.02%,
+    #f1dd25 55.21%,
+    #cb740e 100%
+  );
+  border: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.SlumpaIgenText {
+  font-family: myFirstFont;
+  font-size: 8vw;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding-top: 2vw;
+  line-height: 7vw;
+  margin-bottom: 2vw;
+}
+
+.SlumpaIgenDiv {
+  width: 80vw;
+  height: 10vw;
+  border-radius: 30px 30px 30px 30px;
+  margin: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  align-content: center;
+  background: linear-gradient(
+    180deg,
+    #f7e441 13.02%,
+    #f1dd25 55.21%,
+    #cb740e 100%
+  );
+  border: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
 .detaljDiv {
   overflow: scroll;
 }
@@ -383,4 +430,8 @@ label {
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
   height: 60vw;
+}
+.felsok {
+  font-family: myFirstFont;
+  font-size: 20px;
 }
