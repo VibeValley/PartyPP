@@ -23,23 +23,32 @@ function Pick() {
     console.log("id:")
     console.log(id);
     const ValdaSpel = getGameByID(id);
+
+    /*<a href="/valj_at_mig">
+    <p>Slumpa igen!</p>
+    </a>*/
   
     return (
-    <div className="App">
+      <div className="App">
       <div className="HeaderDiv">
-
-        <header className="SidaHeader" id="DetaljNamn">
-          {ValdaSpel.namn}
-        </header>
-      <a href="/valj_at_mig">
-          <p>Slumpa igen!</p>
-      </a>
-      <div className="detaljDiv">
-      <p className="spelare" id="detalj_ID">Antal spelare: {ValdaSpel.spelare}</p>
-      <p className="material" id="detalj_ID">Material: {ValdaSpel.material}</p>
-      <p className="regler" id="detalj_ID">Relger: {ValdaSpel.regler}</p>
+      <div className="SlumpaIgenDiv">
+        <a href="/valj_at_mig">
+          <p className="SlumpaIgenText">Slumpa igen</p>
+        </a>
       </div>
-
+        <header className="SidaHeader" id="DetaljNamn">
+         <p id = "spelinfo">Spel info</p>
+        </header>
+      
+      <div className="detaljDiv">
+        <div id = "speltitel">  <p> {ValdaSpel.namn} </p> 
+        </div>
+        <div id="speldetalj">  
+      <p id="detaljtitel">Antal spelare:</p> <p id="speltext">{ValdaSpel.spelare} </p>
+      <p id="detaljtitel">Material:</p> <p id="speltext">{ValdaSpel.material} </p>
+      <p id="detaljtitel">Regler:</p> <p id="speltext">{ValdaSpel.regler} </p>
+      </div>
+      </div>
       </div>
       <Lowerbar />
     </div>
