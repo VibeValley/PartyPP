@@ -17,23 +17,24 @@ function Detaljsida() {
   return (
     <div className="App">
       <div className="HeaderDiv">
-        <a href="/AllaSpel">
-          <img src={logo} alt="tillbaka" className="HeadPic"></img>
-          <p className="TillbakaText">Alla spel</p>
-        </a>
         <header className="SidaHeader" id="DetaljNamn">
-         <p id = "spelinfo">Spel info</p>
+          <p id="spelinfo">Spel info</p>
         </header>
-      
-      <div className="detaljDiv">
-        <div id = "speltitel">  <p> {ValdaSpel.namn} </p> 
+
+        <div className="detaljDiv">
+          <div id="speltitel">
+            {" "}
+            <p> {ValdaSpel.namn} </p>
+          </div>
+          <div id="speldetalj">
+            <p id="detaljtitel">Antal spelare:</p>{" "}
+            <p id="speltext">{ValdaSpel.spelare} </p>
+            <p id="detaljtitel">Material:</p>{" "}
+            <p id="speltext">{ValdaSpel.material} </p>
+            <p id="detaljtitel">Regler:</p>{" "}
+            <p id="speltext">{ValdaSpel.regler} </p>
+          </div>
         </div>
-        <div id="speldetalj">  
-      <p id="detaljtitel">Antal spelare:</p> <p id="speltext">{ValdaSpel.spelare} </p>
-      <p id="detaljtitel">Material:</p> <p id="speltext">{ValdaSpel.material} </p>
-      <p id="detaljtitel">Regler:</p> <p id="speltext">{ValdaSpel.regler} </p>
-      </div>
-      </div>
       </div>
       <Lowerbar />
     </div>
