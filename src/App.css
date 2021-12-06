@@ -219,22 +219,40 @@ a {
 
 .titelfavo {
   margin-top: 6vw;
-  margin-left:  12.5vw;
+  margin-left:  13vw;
   margin-right: 1vw;
   margin-bottom: 2.5vw;
-  height: 16vw;
+  height: 14vw;
   width: 75vw;
   float: left;
 }
 
 .titelsok {
   margin-top: 6vw;
-  margin-left:  15vw;
+  margin-left:  23vw;
   margin-right: 1vw;
   margin-bottom: 2.5vw;
-  height: 20vw;
-  width: 70vw;
+  height: 18vw;
+  width: 55vw;
   float: left;
+}
+
+.titelvalj{
+  margin-top: 6vw;
+  margin-left:  13vw;
+  margin-right: 1vw;
+  margin-bottom: 2.5vw;
+  height: 16vw;
+  width: 75vw;
+}
+
+.titellaggtill{
+  margin-top: 6vw;
+  margin-left:  13vw;
+  margin-right: 1vw;
+  margin-bottom: 2.5vw;
+  height: 16vw;
+  width: 75vw;
 }
 
 .felmeddelande{
@@ -248,12 +266,12 @@ a {
 
 .TillbakaText {
   font-family: myFirstFont;
-  font-size: 4vw;
+  font-size: 4.5vw;
   display: block;
   margin: 0;
   padding-top: 2vw;
   line-height: 7vw;
-  margin-bottom: 2vw;
+  margin-bottom: 4.5vw;
 }
 
 .TillbakaDiv {
@@ -280,13 +298,16 @@ a {
   padding-top: 2vw;
   line-height: 7vw;
   margin-bottom: 2vw;
+  color: #3C3C3C;
 }
 
 .SlumpaIgenDiv {
   width: 80vw;
   height: 10vw;
   border-radius: 30px 30px 30px 30px;
-  margin: 10%;
+  margin-top: 4vw;
+  margin-right: 5vw;
+  margin-left: 10vw;
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
@@ -385,6 +406,7 @@ a {
 
 .spelare {
   height: 10vw;
+  text-decoration: underline;
 }
 
 .material {
@@ -395,30 +417,33 @@ a {
   height: 90vw;
 }
 
-.isaksearch {
-  height: 40px;
+.searchbar {
+  height: 45px;
   width: 90%;
-  margin: 5%;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  margin-left: 4vw;
   opacity: 0.5;
+  border-radius: 30px 30px 30px 30px;
 }
-/*Lägg till sida*/
+/*--------------Lägg till sida------------*/
 label {
   margin-bottom: 10vw;
   font-size: 5vw;
 }
 .LäggtillKnapp {
-  margin: 0;
+  margin-top: 5vw;
   position: absolute;
   top: 80%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
   width: 30vw;
   height: 15vw;
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
   text-align: center;
+  text-size-adjust: 4vw;
   font-family: myFirstFont;
   background: linear-gradient(180deg, #ffb800 -37.5%, #f6e441 50%);
 }

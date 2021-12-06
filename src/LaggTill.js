@@ -1,6 +1,7 @@
 import Lowerbar from "./LowerBar";
 import React, { useState } from "react";
 import scan from "./Bilder/pic.png";
+import titellaggtill from "./Bilder/laggtilltext.png";
 
 const LaggTillForm = ({}) => {
   const [besk, setBesk] = useState("");
@@ -12,6 +13,7 @@ const LaggTillForm = ({}) => {
 
   return (
     <form>
+    
       <div className="row">
         <label>Titel:</label>
       </div>
@@ -32,7 +34,7 @@ const LaggTillForm = ({}) => {
         placeholder="Beskrivning..."
       />
       <div className="row">
-        <label>Antal:</label>
+        <label>Antal spelare:</label>
       </div>
       <input
         type="text"
@@ -95,10 +97,9 @@ const LäggtillKnapp = (props) => {
 function laggTill() {
   return (
     <div className="App">
+      <img src={titellaggtill} className = "titellaggtill"></img>
       <div className="HeaderDiv">
-        <header className="SidaHeader" id="DetaljNamn">
-          <p id="spelinfo">Lägg till</p>
-        </header>
+        <header className="SidaHeader" id="DetaljNamn">        </header>
         <div className="container">
           <LaggTillForm />
         </div>

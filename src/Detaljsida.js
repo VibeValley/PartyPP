@@ -20,14 +20,10 @@ function Detaljsida() {
       <div>
         <a href="/AllaSpel">
           <img src={logo} alt="tillbaka" className="HeadPic"></img>
-          <p className="TillbakaText">Alla spel</p>
-          
+          <p className="TillbakaText">Alla spel</p>  
         </a>
-       
         <header className="SidaHeader" id="DetaljNamn">
-        
         </header>
-      
         
       <div className="HeaderDiv" className="detaljDiv">
       <div><img src={textDetalj} className = "titeldetalj" ></img></div>

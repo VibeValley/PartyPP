@@ -34,8 +34,8 @@ function AllaSpel() {
         <form className = "asticky">
           <label>
             <input
-              placeholder="Sök efter ett spel eller antal spelare här..."
-              className="isaksearch"
+              placeholder="  Sök efter ett spel eller antal spelare här..."
+              className="searchbar"
               type="text"
               name="name"
               value={query}

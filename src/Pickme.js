@@ -1,9 +1,7 @@
 import "./App.css";
 import games from "./games.json";
-import { useParams } from "react-router-dom";
 import Lowerbar from "./LowerBar";
-import logo from "./Bilder/Tillbaka.png";
-
+import textDetalj from "./Bilder/spelinfotext.png";
 
 const getGameByID = (id) => {
     return games.find((game) => game.id === id);
@@ -26,6 +24,8 @@ function Pick() {
   
     return (
       <div className="App">
+        <img src={textDetalj} className = "titelvalj" ></img>
+
       <div className="HeaderDiv">
       <div className="SlumpaIgenDiv">
         <a href="/valj_at_mig">
@@ -33,7 +33,6 @@ function Pick() {
         </a>
       </div>
         <header className="SidaHeader" id="DetaljNamn">
-         <p id = "spelinfo">Spel info</p>
         </header>
       
       <div className="detaljDiv">
