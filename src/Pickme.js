@@ -1,7 +1,6 @@
 import "./App.css";
 import games from "./games.json";
 import Lowerbar from "./LowerBar";
-import textDetalj from "./Bilder/spelinfotext.png";
 
 const getGameByID = (id) => {
     return games.find((game) => game.id === id);
@@ -24,8 +23,6 @@ function Pick() {
   
     return (
       <div className="App">
-        <img src={textDetalj} className = "titelvalj" ></img>
-
       <div className="HeaderDiv">
       <div className="SlumpaIgenDiv">
         <a href="/valj_at_mig">
@@ -36,7 +33,7 @@ function Pick() {
         </header>
       
       <div className="detaljDiv">
-        <div id = "speltitel">  <p> {ValdaSpel.namn} </p> 
+        <div id = "speltitelslump">  <p> {ValdaSpel.namn} </p> 
         </div>
         <div id="speldetalj">  
       <p id="detaljtitel">Antal spelare:</p> <p id="speltext">{ValdaSpel.spelare} </p>

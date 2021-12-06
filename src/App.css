@@ -18,7 +18,7 @@ html {
   white-space: pre-line;
 }
 
-/*Första sidans css*/
+/*---------Första sidans css---------*/
 
 .Logotyp {
   display: block;
@@ -120,7 +120,7 @@ html {
   margin-top: 2vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  color: #8a8a8a;
+  color: #686767;
   font-family: myFirstFont;
 }
 
@@ -142,7 +142,7 @@ a {
   width: 7vw;
 }
 
-/*-------------Detalj sida css-------------*/
+/*-------------Detalj sida-------------*/
 
 #spelinfo {
   margin: 2vw;
@@ -152,14 +152,19 @@ a {
 
 #speltitel {
   text-align: center;
-  font-size: 10vw;
-  color:rgb(226, 225, 225);
-  margin-top: 9vw;
-
+  font-size: 16vw;
+  color:rgb(255, 255, 255);
+  margin-bottom: -5vw;
+  margin-top: -20vw;
   font-family: myFirstFont;
-  /*text-shadow: 1px 3px 6px #cacaca63;
-  text-decoration-line: underline;
-  text-decoration-style:solid;*/
+}
+#speltitelslump {
+  text-align: center;
+  font-size: 16vw;
+  color:rgb(255, 255, 255);
+  margin-bottom: -5vw;
+  margin-top: -10vw;
+  font-family: myFirstFont;
 }
 
 #speldetalj {
@@ -211,7 +216,7 @@ a {
   margin-top: 6vw;
   margin-left:  10.5vw;
   margin-right: 1vw;
-  margin-bottom: 2.5vw;
+  margin-bottom: 2vw;
   height: 16vw;
   width: 80vw;
   float: left;
@@ -229,11 +234,11 @@ a {
 
 .titelsok {
   margin-top: 6vw;
-  margin-left:  23vw;
+  margin-left:  27.5vw;
   margin-right: 1vw;
-  margin-bottom: 2.5vw;
-  height: 18vw;
-  width: 55vw;
+  margin-bottom: 0vw;
+  height: 15vw;
+  width: 46vw;
   float: left;
 }
 
@@ -269,12 +274,13 @@ a {
   font-size: 4.5vw;
   display: block;
   margin: 0;
-  padding-top: 2vw;
+  padding-top: 2.5vw;
   line-height: 7vw;
   margin-bottom: 4.5vw;
+  color: #F6E441;
 }
 
-.TillbakaDiv {
+/*.TillbakaDiv {
   text-align: left;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -287,7 +293,7 @@ a {
   );
   border: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
+} */
 
 .SlumpaIgenText {
   font-family: myFirstFont;
@@ -305,11 +311,11 @@ a {
   width: 80vw;
   height: 10vw;
   border-radius: 30px 30px 30px 30px;
-  margin-top: 4vw;
+  margin-top: 6.5vw;
   margin-right: 5vw;
   margin-left: 10vw;
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 1vw;
   text-align: center;
   align-content: center;
   background: linear-gradient(
@@ -417,6 +423,8 @@ a {
   height: 90vw;
 }
 
+/*---------------Sökbar--------------------*/
+
 .searchbar {
   height: 45px;
   width: 90%;
@@ -426,6 +434,7 @@ a {
   opacity: 0.5;
   border-radius: 30px 30px 30px 30px;
 }
+
 /*--------------Lägg till sida------------*/
 label {
   margin-bottom: 10vw;
@@ -445,7 +454,7 @@ label {
   text-align: center;
   text-size-adjust: 4vw;
   font-family: myFirstFont;
-  background: linear-gradient(180deg, #ffb800 -37.5%, #f6e441 50%);
+  background: linear-gradient(#f6e441 40.5%, #ffb800 70%);
 }
 .container {
   border-radius: 5px;
@@ -522,4 +531,6 @@ label {
 .felsok {
   font-family: myFirstFont;
   font-size: 20px;
+  text-align: center;
+  color: #fefefe;
 }
