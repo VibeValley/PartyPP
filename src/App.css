@@ -170,6 +170,17 @@ a {
 #speldetalj {
   display: inline-block;
   margin-top: -5vw;
+  margin-bottom: 22vw;
+  background: rgb(230, 176, 226);
+  border-top-left-radius: 8vw;
+  border-top-right-radius: 8vw;
+  font-size: 5vw;
+  font-family: myFirstFont;
+}
+
+#speldetalj1 {
+  display: inline-block;
+  margin-top: -5vw;
   background: rgb(230, 176, 226);
   border-top-left-radius: 8vw;
   border-top-right-radius: 8vw;

@@ -35,7 +35,7 @@ function Pick() {
       <div className="detaljDiv">
         <div id = "speltitelslump">  <p> {ValdaSpel.namn} </p> 
         </div>
-        <div id="speldetalj">  
+        <div id="speldetalj1">  
       <p id="detaljtitel">Antal spelare:</p> <p id="speltext">{ValdaSpel.spelare} </p>
       <p id="detaljtitel">Material:</p> <p id="speltext">{ValdaSpel.material} </p>
       <p id="detaljtitel">Regler:</p> <p id="speltext">{ValdaSpel.regler} </p>
