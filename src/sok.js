@@ -52,7 +52,7 @@ function AllaSpel() {
         för att bestämma vad den ska skriva ut tiita i "SpelLista.js"*/}
         {gamesResult.length ? gamesResult.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />
-        )) : <p className = "felsok">Vi kunde ej hitta det du sökte efter :( <p>Var vänlig att testa igen!</p> </p>}
+        )) : <p className = "felsok">Vi kunde ej hitta det du sökte efter :( <p>Var vänlig och testa igen!</p> </p>}
       </div>
       </div>
       <Lowerbar defaultSelected="SökID"/>
