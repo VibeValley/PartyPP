@@ -119,7 +119,7 @@
     {
     "namn": "Jokern",
     "beskrivning":"Jokern är en svår men spännande lek",
-    "regler": "1. En kortlek med en joker i botten balanseras på toppen av en glasflaska. \n 2. Deltagarna blåser i turordning bort ett valfritt antal kort. \n 3. Den som blåser bort sista kortet (jokern) från flaskan får dricka en förutbestämd mängd alkohol (ex. en shot).\n\n\n",
+    "regler": "1. En kortlek med en joker i botten balanseras på toppen av en glasflaska. \n\n 2. Deltagarna blåser i turordning bort ett valfritt antal kort. \n\n 3. Den som blåser bort sista kortet (jokern) från flaskan får dricka en förutbestämd mängd alkohol (ex. en shot).\n\n",
     "spelare": "2+",
     "material": "1 glasflaska, typ 33 cl:s drickflaska, kortlek och valfri dryck",
     "id": "14"
