@@ -26,7 +26,7 @@ function Favoriter() {
       
         <header className="SidaHeader"></header>
       
-      <div className="ListaDiv">
+      <div className="ListaDiv" id="FavvoDiv">
         {/*Här skriver vi ut listan med favoritspel, som finns i window.localStorage*/}
         {favoGames.map((allaSpel) => (
           <SpelLista key={allaSpel.id} spel={allaSpel} />

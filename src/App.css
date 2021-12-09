@@ -85,6 +85,10 @@ html {
   overflow: scroll;
 }
 
+#FavvoDiv{
+  height: 169.47vw;
+}
+
 .SidaHeader {
   font-family: myFirstFont;
   text-shadow: 1px 3px 6px #cacaca;
